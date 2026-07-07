@@ -1,3 +1,0 @@
-			##Apuntes
-		dad
-		3
