@@ -6,7 +6,7 @@
 		{"id":"705089802ca94770","type":"text","text":"CREATE : Crea un objeto (tabla, base de datos)","x":18,"y":300,"width":343,"height":50},
 		{"id":"544f5420850e13d2","type":"text","text":"```\nCREATE TABLE usuarios (id INT, nombre VARCHAR (50)); \n```","x":-7,"y":370,"width":400,"height":100},
 		{"id":"88e79ad81d413fd1","type":"text","text":"```\n\tALTER TABLE usuarios ADD email VARCHAR (100);\n```","x":483,"y":300,"width":285,"height":110},
-		{"id":"b0765b1ce4f586af","type":"text","text":"DROP :Borra estructura y datos permanentemente ","x":-360,"y":170,"width":250,"height":60},
+		{"id":"b0765b1ce4f586af","type":"text","text":"DROP :Borra estructura y datos permanentemente ","x":-360,"y":170,"width":250,"height":90},
 		{"id":"3f5720f1f4094fb5","type":"text","text":"```\nDROP TABLE usuarios;\n```","x":-360,"y":300,"width":250,"height":54},
 		{"id":"b65cadf92e8ac948","type":"text","text":"DML DATA MANIPULATION LENGUAGE\nSe utiliza para gestionar los datos de una tabla","x":-1136,"y":120,"width":384,"height":60},
 		{"id":"2acfd111a24ff8cb","type":"text","text":"INSERT : Añade registros","x":-1069,"y":260,"width":250,"height":60},
