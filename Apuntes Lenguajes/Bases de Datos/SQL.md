@@ -8,4 +8,4 @@
 | DCL | lenguaje de control de datos         |
 | TCL | lenguaje de control de transacciones |
 
-/git 
+/git
