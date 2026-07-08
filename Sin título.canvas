@@ -6,18 +6,23 @@
 		{"id":"705089802ca94770","type":"text","text":"CREATE : Crea un objeto (tabla, base de datos)","x":18,"y":300,"width":343,"height":50},
 		{"id":"544f5420850e13d2","type":"text","text":"```\nCREATE TABLE usuarios (id INT, nombre VARCHAR (50)); \n```","x":-7,"y":370,"width":400,"height":100},
 		{"id":"88e79ad81d413fd1","type":"text","text":"```\n\tALTER TABLE usuarios ADD email VARCHAR (100);\n```","x":483,"y":300,"width":285,"height":110},
-		{"id":"b0765b1ce4f586af","x":-360,"y":170,"width":250,"height":60,"type":"text","text":"DROP :Borra estructura y datos permanentemente "},
-		{"id":"3f5720f1f4094fb5","x":-360,"y":300,"width":250,"height":54,"type":"text","text":"```\nDROP TABLE usuarios;\n```"},
-		{"id":"b65cadf92e8ac948","x":-1136,"y":120,"width":384,"height":60,"type":"text","text":"DML DATA MANIPULATION LENGUAGE\nSe utiliza para gestionar los datos de una tabla"},
-		{"id":"2acfd111a24ff8cb","x":-1069,"y":260,"width":250,"height":60,"type":"text","text":"INSERT : Añade registros"},
-		{"id":"f8d2ac15f40f5c50","x":-1069,"y":380,"width":250,"height":100,"type":"text","text":"```\nINSERT INTO Usuarios (id, nombre) VALUES (1, 'Ana');\n```"},
-		{"id":"3c0b1bf3905df1c9","x":-760,"y":230,"width":250,"height":60,"type":"text","text":"UPDATE : modifica datos existentes"},
-		{"id":"2239c6a3430b520c","x":-752,"y":327,"width":250,"height":94,"type":"text","text":"```\nUPDATE Usuarios SET nombre = 'Clara' WHERE id = 1;\n```"},
-		{"id":"6df3f51a4c54db6d","x":-1460,"y":380,"width":250,"height":60,"type":"text","text":"```\nDELETE FROM Usuarios WHERE id = 1;\n```"},
-		{"id":"c3608e7e026b3b11","x":-1460,"y":230,"width":250,"height":60,"type":"text","text":"DELETE: Elimina registros especificos"},
-		{"id":"85effb3544dafb64","x":-660,"y":-100,"width":380,"height":102,"type":"text","text":"DQL (DATA QUERY LENGUGAE) - Consulta\nSe encarga de traer, obtener recuperar informacion de la base de datos "},
-		{"id":"7f21c07785d2343a","x":-600,"y":-276,"width":250,"height":60,"type":"text","text":"SELECT: Recoge datos que el usuario pida"},
-		{"id":"96483427f1c52d39","x":359,"y":-71,"width":250,"height":60,"type":"text","text":"DCL (DATA CONTROL LENGUAGE)\nSe encarga de los "}
+		{"id":"b0765b1ce4f586af","type":"text","text":"DROP :Borra estructura y datos permanentemente ","x":-360,"y":170,"width":250,"height":60},
+		{"id":"3f5720f1f4094fb5","type":"text","text":"```\nDROP TABLE usuarios;\n```","x":-360,"y":300,"width":250,"height":54},
+		{"id":"b65cadf92e8ac948","type":"text","text":"DML DATA MANIPULATION LENGUAGE\nSe utiliza para gestionar los datos de una tabla","x":-1136,"y":120,"width":384,"height":60},
+		{"id":"2acfd111a24ff8cb","type":"text","text":"INSERT : Añade registros","x":-1069,"y":260,"width":250,"height":60},
+		{"id":"f8d2ac15f40f5c50","type":"text","text":"```\nINSERT INTO Usuarios (id, nombre) VALUES (1, 'Ana');\n```","x":-1069,"y":380,"width":250,"height":100},
+		{"id":"3c0b1bf3905df1c9","type":"text","text":"UPDATE : modifica datos existentes","x":-760,"y":230,"width":250,"height":60},
+		{"id":"2239c6a3430b520c","type":"text","text":"```\nUPDATE Usuarios SET nombre = 'Clara' WHERE id = 1;\n```","x":-752,"y":327,"width":250,"height":94},
+		{"id":"6df3f51a4c54db6d","type":"text","text":"```\nDELETE FROM Usuarios WHERE id = 1;\n```","x":-1460,"y":380,"width":250,"height":60},
+		{"id":"c3608e7e026b3b11","type":"text","text":"DELETE: Elimina registros especificos","x":-1460,"y":230,"width":250,"height":60},
+		{"id":"85effb3544dafb64","type":"text","text":"DQL (DATA QUERY LENGUGAE) - Consulta\nSe encarga de traer, obtener recuperar informacion de la base de datos ","x":-660,"y":-100,"width":380,"height":102},
+		{"id":"96483427f1c52d39","type":"text","text":"DCL (DATA CONTROL LENGUAGE)\nSe encarga de la seguirdad y los permisos de los usuarios del sistema ","x":359,"y":-71,"width":250,"height":60},
+		{"id":"49f2d181ee6cd123","type":"text","text":"GRANT : Otorga permisos de acceso a un usuario","x":352,"y":-180,"width":250,"height":60},
+		{"id":"7f21c07785d2343a","type":"text","text":"SELECT: Recoge datos que el usuario pida","x":-595,"y":-220,"width":250,"height":60},
+		{"id":"8563d4137651e7f8","type":"text","text":"```\nSELECT nombre, email FROM Usuarios WHERE id > 5;\n```","x":-595,"y":-339,"width":250,"height":60},
+		{"id":"74f4f68f327f60b4","type":"text","text":"```\nGRANT SELECT, INSERT ON Usuarios TO usuario_invitado;\n```","x":353,"y":-306,"width":250,"height":60},
+		{"id":"ec045f700110a684","x":726,"y":-73,"width":250,"height":60,"type":"text","text":"REVOKE :Retira los permisos previamente concedidos."},
+		{"id":"af0602c43121548a","x":729,"y":31,"width":250,"height":60,"type":"text","text":"```\nREVOKE INSERT ON Usuarios FROM usuario_invitado;\n```"}
 	],
 	"edges":[
 		{"id":"65d23b20857f4a4a","fromNode":"8be8fe5f1aedb8ff","fromSide":"bottom","toNode":"705089802ca94770","toSide":"top"},
@@ -36,6 +41,11 @@
 		{"id":"870992c63b395a92","fromNode":"b65cadf92e8ac948","fromSide":"right","toNode":"3c0b1bf3905df1c9","toSide":"top"},
 		{"id":"c7d47e81c125f450","fromNode":"005edd83064d4bb3","fromSide":"left","toNode":"85effb3544dafb64","toSide":"right"},
 		{"id":"45961a62add1820a","fromNode":"85effb3544dafb64","fromSide":"top","toNode":"7f21c07785d2343a","toSide":"bottom"},
-		{"id":"5e68b1969f04e13d","fromNode":"005edd83064d4bb3","fromSide":"right","toNode":"96483427f1c52d39","toSide":"left"}
+		{"id":"5e68b1969f04e13d","fromNode":"005edd83064d4bb3","fromSide":"right","toNode":"96483427f1c52d39","toSide":"left"},
+		{"id":"a661ffec25614a2a","fromNode":"96483427f1c52d39","fromSide":"top","toNode":"49f2d181ee6cd123","toSide":"bottom"},
+		{"id":"fa594aad4651c853","fromNode":"7f21c07785d2343a","fromSide":"top","toNode":"8563d4137651e7f8","toSide":"bottom"},
+		{"id":"2a503737e35ab1a3","fromNode":"49f2d181ee6cd123","fromSide":"top","toNode":"74f4f68f327f60b4","toSide":"bottom"},
+		{"id":"d4eb7f345b180325","fromNode":"96483427f1c52d39","fromSide":"right","toNode":"ec045f700110a684","toSide":"left"},
+		{"id":"dae5fc9d5cfde4c4","fromNode":"ec045f700110a684","fromSide":"bottom","toNode":"af0602c43121548a","toSide":"top"}
 	]
 }
