@@ -2,12 +2,16 @@
 	"nodes":[
 		{"id":"005edd83064d4bb3","type":"text","text":"# COMANDO EN SQL ","x":-125,"y":0,"width":285,"height":60},
 		{"id":"8be8fe5f1aedb8ff","type":"text","text":"##### DDL (DATA DEFINITION LENGUAGE)\n##### Se utiliza para alterar una base de datos como: Tablas, vistas o indices.","x":-20,"y":140,"width":426,"height":120},
-		{"id":"544f5420850e13d2","type":"text","text":"```\nCREATE TABLE usuarios (id **INT**, nombre VARCHAR (50)); \n```","x":-20,"y":360,"width":426,"height":120},
-		{"id":"705089802ca94770","type":"text","text":"create","x":117,"y":280,"width":152,"height":50}
+		{"id":"88e79ad81d413fd1","type":"text","text":"","x":500,"y":380,"width":250,"height":80},
+		{"id":"31ea31786fe5b061","type":"text","text":"ALTER ","x":500,"y":170,"width":250,"height":60},
+		{"id":"705089802ca94770","type":"text","text":"CREATE","x":117,"y":300,"width":152,"height":50},
+		{"id":"544f5420850e13d2","type":"text","text":"```\nCREATE TABLE usuarios (id INT, nombre VARCHAR (50)); \n```","x":-7,"y":370,"width":400,"height":100}
 	],
 	"edges":[
 		{"id":"0555dec0de9024ef","fromNode":"005edd83064d4bb3","fromSide":"bottom","toNode":"8be8fe5f1aedb8ff","toSide":"top"},
 		{"id":"65d23b20857f4a4a","fromNode":"8be8fe5f1aedb8ff","fromSide":"bottom","toNode":"705089802ca94770","toSide":"top"},
-		{"id":"ef20e3a6bd3d27a1","fromNode":"705089802ca94770","fromSide":"bottom","toNode":"544f5420850e13d2","toSide":"top"}
+		{"id":"89634689f7c6b7f0","fromNode":"8be8fe5f1aedb8ff","fromSide":"right","toNode":"31ea31786fe5b061","toSide":"left"},
+		{"id":"67c6893081af877e","fromNode":"31ea31786fe5b061","fromSide":"bottom","toNode":"88e79ad81d413fd1","toSide":"top"},
+		{"id":"a4144ce77bce4860","fromNode":"705089802ca94770","fromSide":"bottom","toNode":"544f5420850e13d2","toSide":"top"}
 	]
 }
