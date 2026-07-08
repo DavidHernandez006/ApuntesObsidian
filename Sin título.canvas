@@ -2,8 +2,8 @@
 	"nodes":[
 		{"id":"005edd83064d4bb3","x":-125,"y":0,"width":285,"height":60,"type":"text","text":"# COMANDO EN SQL "},
 		{"id":"8be8fe5f1aedb8ff","x":-20,"y":140,"width":426,"height":120,"type":"text","text":"##### DDL (DATA DEFINITION LENGUAGE)\n##### Se utiliza para alterar una base de datos como: Tablas, vistas o indices."},
-		{"id":"705089802ca94770","x":68,"y":280,"width":250,"height":60,"type":"text","text":"create"},
-		{"id":"544f5420850e13d2","x":-20,"y":360,"width":426,"height":120,"type":"text","text":"```\nCREATE TABLE usuarios (id INT, nombre VARCHAR (50));\n```"}
+		{"id":"544f5420850e13d2","x":-20,"y":360,"width":426,"height":120,"type":"text","text":"```\nCREATE TABLE usuarios (id INT, nombre VARCHAR (50));\n```"},
+		{"id":"705089802ca94770","x":117,"y":280,"width":152,"height":50,"type":"text","text":"create"}
 	],
 	"edges":[
 		{"id":"0555dec0de9024ef","fromNode":"005edd83064d4bb3","fromSide":"bottom","toNode":"8be8fe5f1aedb8ff","toSide":"top"},
