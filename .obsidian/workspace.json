@@ -11,10 +11,17 @@
             "id": "c6babc5245d8b852",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "canvas",
+              "state": {
+                "file": "Sin título.canvas",
+                "viewState": {
+                  "x": 171,
+                  "y": 1163,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Sin título"
             }
           }
         ]
@@ -190,10 +197,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b139c633f49422fc",
+  "active": "c6babc5245d8b852",
   "lastOpenFiles": [
-    "Sin título.canvas",
     "Apuntes Lenguajes/Bases de Datos/SQL.md",
+    "Sin título.canvas",
     "2026-07-07.md",
     "Sin título 2.canvas",
     "Sin título 2.base",
