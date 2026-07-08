@@ -11,10 +11,14 @@
             "id": "c6babc5245d8b852",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Apuntes Lenguajes/Bases de Datos/SQL.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "SQL"
             }
           }
         ]
@@ -190,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b139c633f49422fc",
+  "active": "5dc1847e3fc6679c",
   "lastOpenFiles": [
     "Sin título.canvas",
     "2026-07-07.md",
