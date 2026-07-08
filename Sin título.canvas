@@ -2,24 +2,38 @@
 	"nodes":[
 		{"id":"005edd83064d4bb3","type":"text","text":"# COMANDO EN SQL ","x":-125,"y":0,"width":285,"height":60},
 		{"id":"8be8fe5f1aedb8ff","type":"text","text":"##### DDL (DATA DEFINITION LENGUAGE)\n##### Se utiliza para alterar una base de datos como: Tablas, vistas o indices.","x":-20,"y":140,"width":426,"height":120},
-		{"id":"31ea31786fe5b061","type":"text","text":"ALTER ","x":500,"y":170,"width":250,"height":60},
-		{"id":"705089802ca94770","type":"text","text":"CREATE","x":117,"y":300,"width":152,"height":50},
+		{"id":"31ea31786fe5b061","type":"text","text":"ALTER : modifica la estructura de un objeto ","x":500,"y":170,"width":250,"height":60},
+		{"id":"705089802ca94770","type":"text","text":"CREATE : Crea un objeto (tabla, base de datos)","x":18,"y":300,"width":343,"height":50},
 		{"id":"544f5420850e13d2","type":"text","text":"```\nCREATE TABLE usuarios (id INT, nombre VARCHAR (50)); \n```","x":-7,"y":370,"width":400,"height":100},
 		{"id":"88e79ad81d413fd1","type":"text","text":"```\n\tALTER TABLE usuarios ADD email VARCHAR (100);\n```","x":483,"y":300,"width":285,"height":110},
-		{"id":"b0765b1ce4f586af","x":-360,"y":170,"width":250,"height":60,"type":"text","text":"DROP "},
+		{"id":"b0765b1ce4f586af","x":-360,"y":170,"width":250,"height":60,"type":"text","text":"DROP :Borra estructura y datos permanentemente "},
 		{"id":"3f5720f1f4094fb5","x":-360,"y":300,"width":250,"height":54,"type":"text","text":"```\nDROP TABLE usuarios;\n```"},
-		{"id":"b65cadf92e8ac948","x":-820,"y":146,"width":384,"height":60,"type":"text","text":"DML DATA MANIPULATION LENGUAGE\nSe utiliza "},
-		{"id":"2acfd111a24ff8cb","x":-752,"y":244,"width":250,"height":60,"type":"text","text":""}
+		{"id":"b65cadf92e8ac948","x":-1136,"y":120,"width":384,"height":60,"type":"text","text":"DML DATA MANIPULATION LENGUAGE\nSe utiliza para gestionar los datos de una tabla"},
+		{"id":"2acfd111a24ff8cb","x":-1069,"y":260,"width":250,"height":60,"type":"text","text":"INSERT : Añade registros"},
+		{"id":"f8d2ac15f40f5c50","x":-1069,"y":380,"width":250,"height":100,"type":"text","text":"```\nINSERT INTO Usuarios (id, nombre) VALUES (1, 'Ana');\n```"},
+		{"id":"3c0b1bf3905df1c9","x":-760,"y":230,"width":250,"height":60,"type":"text","text":"UPDATE : modifica datos existentes"},
+		{"id":"2239c6a3430b520c","x":-752,"y":327,"width":250,"height":94,"type":"text","text":"```\nUPDATE Usuarios SET nombre = 'Clara' WHERE id = 1;\n```"},
+		{"id":"6df3f51a4c54db6d","x":-1460,"y":380,"width":250,"height":60,"type":"text","text":"```\nDELETE FROM Usuarios WHERE id = 1;\n```"},
+		{"id":"c3608e7e026b3b11","x":-1460,"y":230,"width":250,"height":60,"type":"text","text":"DELETE: Elimina registros especificos"},
+		{"id":"85effb3544dafb64","x":-660,"y":-100,"width":380,"height":102,"type":"text","text":"DQL (DATA QUERY LENGUGAE) - Consulta\nSe encarga de traer, obtener recuperar informacion de la base de datos "},
+		{"id":"7f21c07785d2343a","x":-600,"y":-276,"width":250,"height":60,"type":"text","text":"SELECT: Recoge datos que e"}
 	],
 	"edges":[
 		{"id":"65d23b20857f4a4a","fromNode":"8be8fe5f1aedb8ff","fromSide":"bottom","toNode":"705089802ca94770","toSide":"top"},
 		{"id":"89634689f7c6b7f0","fromNode":"8be8fe5f1aedb8ff","fromSide":"right","toNode":"31ea31786fe5b061","toSide":"left"},
 		{"id":"67c6893081af877e","fromNode":"31ea31786fe5b061","fromSide":"bottom","toNode":"88e79ad81d413fd1","toSide":"top"},
 		{"id":"a4144ce77bce4860","fromNode":"705089802ca94770","fromSide":"bottom","toNode":"544f5420850e13d2","toSide":"top"},
-		{"id":"4688ebb4d91a2385","fromNode":"8be8fe5f1aedb8ff","fromSide":"right","toNode":"b0765b1ce4f586af","toSide":"left"},
+		{"id":"4688ebb4d91a2385","fromNode":"8be8fe5f1aedb8ff","fromSide":"right","toNode":"b0765b1ce4f586af","toSide":"right"},
 		{"id":"b8df7d86943316c5","fromNode":"b0765b1ce4f586af","fromSide":"bottom","toNode":"3f5720f1f4094fb5","toSide":"top"},
 		{"id":"945bdc998c4ef91e","fromNode":"005edd83064d4bb3","fromSide":"bottom","toNode":"8be8fe5f1aedb8ff","toSide":"top"},
 		{"id":"8ce1f76cb915e426","fromNode":"005edd83064d4bb3","fromSide":"bottom","toNode":"b65cadf92e8ac948","toSide":"top"},
-		{"id":"af7c23bb629e6917","fromNode":"b65cadf92e8ac948","fromSide":"bottom","toNode":"2acfd111a24ff8cb","toSide":"top"}
+		{"id":"af7c23bb629e6917","fromNode":"b65cadf92e8ac948","fromSide":"bottom","toNode":"2acfd111a24ff8cb","toSide":"top"},
+		{"id":"61b06624bd8f0675","fromNode":"2acfd111a24ff8cb","fromSide":"bottom","toNode":"f8d2ac15f40f5c50","toSide":"top"},
+		{"id":"d888e7fa1d03a30a","fromNode":"3c0b1bf3905df1c9","fromSide":"bottom","toNode":"2239c6a3430b520c","toSide":"top"},
+		{"id":"65c76827f2545a20","fromNode":"b65cadf92e8ac948","fromSide":"left","toNode":"c3608e7e026b3b11","toSide":"top"},
+		{"id":"a9a2a484077dfce8","fromNode":"c3608e7e026b3b11","fromSide":"bottom","toNode":"6df3f51a4c54db6d","toSide":"top"},
+		{"id":"870992c63b395a92","fromNode":"b65cadf92e8ac948","fromSide":"right","toNode":"3c0b1bf3905df1c9","toSide":"top"},
+		{"id":"c7d47e81c125f450","fromNode":"005edd83064d4bb3","fromSide":"left","toNode":"85effb3544dafb64","toSide":"right"},
+		{"id":"45961a62add1820a","fromNode":"85effb3544dafb64","fromSide":"top","toNode":"7f21c07785d2343a","toSide":"bottom"}
 	]
 }
