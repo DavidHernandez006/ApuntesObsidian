@@ -74,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "79f7cc2cf28c41c4",
@@ -191,7 +190,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c6babc5245d8b852",
+  "active": "b139c633f49422fc",
   "lastOpenFiles": [
     "Sin título.canvas",
     "Apuntes Lenguajes/Bases de Datos/SQL.md",
