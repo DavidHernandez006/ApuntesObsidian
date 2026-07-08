@@ -16,7 +16,7 @@
 		{"id":"6df3f51a4c54db6d","x":-1460,"y":380,"width":250,"height":60,"type":"text","text":"```\nDELETE FROM Usuarios WHERE id = 1;\n```"},
 		{"id":"c3608e7e026b3b11","x":-1460,"y":230,"width":250,"height":60,"type":"text","text":"DELETE: Elimina registros especificos"},
 		{"id":"85effb3544dafb64","x":-660,"y":-100,"width":380,"height":102,"type":"text","text":"DQL (DATA QUERY LENGUGAE) - Consulta\nSe encarga de traer, obtener recuperar informacion de la base de datos "},
-		{"id":"7f21c07785d2343a","x":-600,"y":-276,"width":250,"height":60,"type":"text","text":"SELECT: Recoge datos que e"}
+		{"id":"7f21c07785d2343a","x":-600,"y":-276,"width":250,"height":60,"type":"text","text":"SELECT: Recoge datos que el usuario pida"}
 	],
 	"edges":[
 		{"id":"65d23b20857f4a4a","fromNode":"8be8fe5f1aedb8ff","fromSide":"bottom","toNode":"705089802ca94770","toSide":"top"},
