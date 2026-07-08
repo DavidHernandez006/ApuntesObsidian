@@ -11,17 +11,10 @@
             "id": "c6babc5245d8b852",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Sin título.canvas",
-                "viewState": {
-                  "x": -41,
-                  "y": 51.2578125,
-                  "zoom": -1
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Sin título"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
         ]
@@ -184,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,8 +193,8 @@
   },
   "active": "c6babc5245d8b852",
   "lastOpenFiles": [
-    "Apuntes Lenguajes/Bases de Datos/SQL.md",
     "Sin título.canvas",
+    "Apuntes Lenguajes/Bases de Datos/SQL.md",
     "2026-07-07.md",
     "Sin título 2.canvas",
     "Sin título 2.base",
