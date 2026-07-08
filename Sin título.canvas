@@ -8,7 +8,7 @@
 		{"id":"88e79ad81d413fd1","type":"text","text":"```\n\tALTER TABLE usuarios ADD email VARCHAR (100);\n```","x":483,"y":300,"width":285,"height":110},
 		{"id":"b0765b1ce4f586af","x":-360,"y":170,"width":250,"height":60,"type":"text","text":"DROP "},
 		{"id":"3f5720f1f4094fb5","x":-360,"y":300,"width":250,"height":54,"type":"text","text":"```\nDROP TABLE usuarios;\n```"},
-		{"id":"b65cadf92e8ac948","x":-820,"y":146,"width":384,"height":60,"type":"text","text":"DML DATA MANIPULATION LENGUAGE\nSe utiliza para la manipulacion"},
+		{"id":"b65cadf92e8ac948","x":-820,"y":146,"width":384,"height":60,"type":"text","text":"DML DATA MANIPULATION LENGUAGE\nSe utiliza "},
 		{"id":"2acfd111a24ff8cb","x":-752,"y":244,"width":250,"height":60,"type":"text","text":""}
 	],
 	"edges":[
