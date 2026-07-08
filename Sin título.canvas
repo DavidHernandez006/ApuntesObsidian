@@ -8,7 +8,8 @@
 		{"id":"88e79ad81d413fd1","type":"text","text":"```\n\tALTER TABLE usuarios ADD email VARCHAR (100);\n```","x":483,"y":300,"width":285,"height":110},
 		{"id":"b0765b1ce4f586af","x":-360,"y":170,"width":250,"height":60,"type":"text","text":"DROP "},
 		{"id":"3f5720f1f4094fb5","x":-360,"y":300,"width":250,"height":54,"type":"text","text":"```\nDROP TABLE usuarios;\n```"},
-		{"id":"b65cadf92e8ac948","x":-820,"y":146,"width":384,"height":60,"type":"text","text":"DML DATA MANIPULATION LENGUAGE"}
+		{"id":"b65cadf92e8ac948","x":-820,"y":146,"width":384,"height":60,"type":"text","text":"DML DATA MANIPULATION LENGUAGE"},
+		{"id":"2acfd111a24ff8cb","x":-752,"y":244,"width":250,"height":60,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"65d23b20857f4a4a","fromNode":"8be8fe5f1aedb8ff","fromSide":"bottom","toNode":"705089802ca94770","toSide":"top"},
@@ -18,6 +19,7 @@
 		{"id":"4688ebb4d91a2385","fromNode":"8be8fe5f1aedb8ff","fromSide":"right","toNode":"b0765b1ce4f586af","toSide":"left"},
 		{"id":"b8df7d86943316c5","fromNode":"b0765b1ce4f586af","fromSide":"bottom","toNode":"3f5720f1f4094fb5","toSide":"top"},
 		{"id":"945bdc998c4ef91e","fromNode":"005edd83064d4bb3","fromSide":"bottom","toNode":"8be8fe5f1aedb8ff","toSide":"top"},
-		{"id":"8ce1f76cb915e426","fromNode":"005edd83064d4bb3","fromSide":"bottom","toNode":"b65cadf92e8ac948","toSide":"top"}
+		{"id":"8ce1f76cb915e426","fromNode":"005edd83064d4bb3","fromSide":"bottom","toNode":"b65cadf92e8ac948","toSide":"top"},
+		{"id":"af7c23bb629e6917","fromNode":"b65cadf92e8ac948","fromSide":"bottom","toNode":"2acfd111a24ff8cb","toSide":"top"}
 	]
 }
