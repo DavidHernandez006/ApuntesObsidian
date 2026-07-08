@@ -15,8 +15,8 @@
               "state": {
                 "file": "Sin título.canvas",
                 "viewState": {
-                  "x": -428.5,
-                  "y": 194,
+                  "x": -551.5,
+                  "y": 205,
                   "zoom": 0
                 }
               },
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "79f7cc2cf28c41c4",
