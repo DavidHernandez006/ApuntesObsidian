@@ -16,7 +16,8 @@
 		{"id":"6df3f51a4c54db6d","x":-1460,"y":380,"width":250,"height":60,"type":"text","text":"```\nDELETE FROM Usuarios WHERE id = 1;\n```"},
 		{"id":"c3608e7e026b3b11","x":-1460,"y":230,"width":250,"height":60,"type":"text","text":"DELETE: Elimina registros especificos"},
 		{"id":"85effb3544dafb64","x":-660,"y":-100,"width":380,"height":102,"type":"text","text":"DQL (DATA QUERY LENGUGAE) - Consulta\nSe encarga de traer, obtener recuperar informacion de la base de datos "},
-		{"id":"7f21c07785d2343a","x":-600,"y":-276,"width":250,"height":60,"type":"text","text":"SELECT: Recoge datos que el usuario pida"}
+		{"id":"7f21c07785d2343a","x":-600,"y":-276,"width":250,"height":60,"type":"text","text":"SELECT: Recoge datos que el usuario pida"},
+		{"id":"96483427f1c52d39","x":359,"y":-71,"width":250,"height":60,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"65d23b20857f4a4a","fromNode":"8be8fe5f1aedb8ff","fromSide":"bottom","toNode":"705089802ca94770","toSide":"top"},
@@ -34,6 +35,7 @@
 		{"id":"a9a2a484077dfce8","fromNode":"c3608e7e026b3b11","fromSide":"bottom","toNode":"6df3f51a4c54db6d","toSide":"top"},
 		{"id":"870992c63b395a92","fromNode":"b65cadf92e8ac948","fromSide":"right","toNode":"3c0b1bf3905df1c9","toSide":"top"},
 		{"id":"c7d47e81c125f450","fromNode":"005edd83064d4bb3","fromSide":"left","toNode":"85effb3544dafb64","toSide":"right"},
-		{"id":"45961a62add1820a","fromNode":"85effb3544dafb64","fromSide":"top","toNode":"7f21c07785d2343a","toSide":"bottom"}
+		{"id":"45961a62add1820a","fromNode":"85effb3544dafb64","fromSide":"top","toNode":"7f21c07785d2343a","toSide":"bottom"},
+		{"id":"5e68b1969f04e13d","fromNode":"005edd83064d4bb3","fromSide":"right","toNode":"96483427f1c52d39","toSide":"left"}
 	]
 }
