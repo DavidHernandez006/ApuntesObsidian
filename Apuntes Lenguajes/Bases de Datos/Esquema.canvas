@@ -22,7 +22,20 @@
 		{"id":"8563d4137651e7f8","type":"text","text":"```\nSELECT nombre, email FROM Usuarios WHERE id > 5;\n```","x":-595,"y":-339,"width":250,"height":60},
 		{"id":"74f4f68f327f60b4","type":"text","text":"```\nGRANT SELECT, INSERT ON Usuarios TO usuario_invitado;\n```","x":353,"y":-306,"width":250,"height":60},
 		{"id":"ec045f700110a684","x":726,"y":-73,"width":250,"height":60,"type":"text","text":"REVOKE :Retira los permisos previamente concedidos."},
-		{"id":"af0602c43121548a","x":729,"y":31,"width":250,"height":60,"type":"text","text":"```\nREVOKE INSERT ON Usuarios FROM usuario_invitado;\n```"}
+		{"id":"af0602c43121548a","x":729,"y":31,"width":250,"height":60,"type":"text","text":"```\nREVOKE INSERT ON Usuarios FROM usuario_invitado;\n```"},
+
+		{"id":"a1trunc0000000001","type":"text","text":"TRUNCATE : Elimina todos los registros sin borrar la estructura","x":18,"y":500,"width":343,"height":60},
+		{"id":"a1trunc0000000002","type":"text","text":"```\nTRUNCATE TABLE usuarios;\n```","x":18,"y":580,"width":343,"height":54},
+		{"id":"a1renam0000000001","type":"text","text":"RENAME : Cambia el nombre de un objeto","x":483,"y":500,"width":285,"height":60},
+		{"id":"a1renam0000000002","type":"text","text":"```\nRENAME TABLE usuarios TO clientes;\n```","x":483,"y":580,"width":285,"height":54},
+
+		{"id":"a2tclhd0000000001","type":"text","text":"TCL (TRANSACTION CONTROL LENGUAGE)\nSe encarga de gestionar las transacciones, garantizando consistencia en los cambios.","x":1050,"y":-71,"width":300,"height":100},
+		{"id":"a2commit000000001","type":"text","text":"COMMIT : Guarda de forma permanente los cambios de la transacción actual","x":1050,"y":-230,"width":280,"height":80},
+		{"id":"a2commit000000002","type":"text","text":"```\nCOMMIT;\n```","x":1050,"y":-350,"width":280,"height":54},
+		{"id":"a2rollbk000000001","type":"text","text":"ROLLBACK : Deshace los cambios desde el último COMMIT","x":1400,"y":-230,"width":280,"height":80},
+		{"id":"a2rollbk000000002","type":"text","text":"```\nROLLBACK;\n```","x":1400,"y":-350,"width":280,"height":54},
+		{"id":"a2savept000000001","type":"text","text":"SAVEPOINT : Crea un punto de referencia dentro de una transacción","x":1225,"y":80,"width":280,"height":80},
+		{"id":"a2savept000000002","type":"text","text":"```\nSAVEPOINT antes_de_borrar;\n```","x":1225,"y":190,"width":280,"height":54}
 	],
 	"edges":[
 		{"id":"65d23b20857f4a4a","fromNode":"8be8fe5f1aedb8ff","fromSide":"bottom","toNode":"705089802ca94770","toSide":"top"},
@@ -46,6 +59,19 @@
 		{"id":"fa594aad4651c853","fromNode":"7f21c07785d2343a","fromSide":"top","toNode":"8563d4137651e7f8","toSide":"bottom"},
 		{"id":"2a503737e35ab1a3","fromNode":"49f2d181ee6cd123","fromSide":"top","toNode":"74f4f68f327f60b4","toSide":"bottom"},
 		{"id":"d4eb7f345b180325","fromNode":"96483427f1c52d39","fromSide":"right","toNode":"ec045f700110a684","toSide":"left"},
-		{"id":"dae5fc9d5cfde4c4","fromNode":"ec045f700110a684","fromSide":"bottom","toNode":"af0602c43121548a","toSide":"top"}
+		{"id":"dae5fc9d5cfde4c4","fromNode":"ec045f700110a684","fromSide":"bottom","toNode":"af0602c43121548a","toSide":"top"},
+
+		{"id":"b1trunc0000000001","fromNode":"8be8fe5f1aedb8ff","fromSide":"bottom","toNode":"a1trunc0000000001","toSide":"top"},
+		{"id":"b1trunc0000000002","fromNode":"a1trunc0000000001","fromSide":"bottom","toNode":"a1trunc0000000002","toSide":"top"},
+		{"id":"b1renam0000000001","fromNode":"8be8fe5f1aedb8ff","fromSide":"bottom","toNode":"a1renam0000000001","toSide":"top"},
+		{"id":"b1renam0000000002","fromNode":"a1renam0000000001","fromSide":"bottom","toNode":"a1renam0000000002","toSide":"top"},
+
+		{"id":"b2tclhd0000000001","fromNode":"ec045f700110a684","fromSide":"right","toNode":"a2tclhd0000000001","toSide":"left"},
+		{"id":"b2commit000000001","fromNode":"a2tclhd0000000001","fromSide":"top","toNode":"a2commit000000001","toSide":"bottom"},
+		{"id":"b2commit000000002","fromNode":"a2commit000000001","fromSide":"top","toNode":"a2commit000000002","toSide":"bottom"},
+		{"id":"b2rollbk000000001","fromNode":"a2tclhd0000000001","fromSide":"right","toNode":"a2rollbk000000001","toSide":"left"},
+		{"id":"b2rollbk000000002","fromNode":"a2rollbk000000001","fromSide":"top","toNode":"a2rollbk000000002","toSide":"bottom"},
+		{"id":"b2savept000000001","fromNode":"a2tclhd0000000001","fromSide":"bottom","toNode":"a2savept000000001","toSide":"top"},
+		{"id":"b2savept000000002","fromNode":"a2savept000000001","fromSide":"bottom","toNode":"a2savept000000002","toSide":"top"}
 	]
 }
