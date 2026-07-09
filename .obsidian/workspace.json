@@ -11,14 +11,17 @@
             "id": "c6babc5245d8b852",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Apuntes Lenguajes/Bases de Datos/SQL/SQL.md",
-                "mode": "source",
-                "source": false
+                "file": "Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
+                "viewState": {
+                  "x": -584.6916501961903,
+                  "y": -38.03650861701437,
+                  "zoom": -0.21671496144142072
+                }
               },
-              "icon": "lucide-file",
-              "title": "SQL"
+              "icon": "lucide-layout-dashboard",
+              "title": "Esquema"
             }
           }
         ]
@@ -209,9 +212,9 @@
   },
   "active": "c6babc5245d8b852",
   "lastOpenFiles": [
+    "Apuntes Lenguajes/Bases de Datos/SQL/SQL.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
-    "Apuntes Lenguajes/Bases de Datos/SQL/SQL.md",
     "Plantillas/Plantilla - Apuntes de Lenguaje.md",
     "Plantillas/Plantilla - Concepto de Lenguaje.md",
     "Plantillas/README - Plugins y Plantilla.md",
