@@ -1,15 +1,15 @@
 ---
 lenguaje:
 categoria: apuntes
-fecha: 2026-07-08
+fecha: <% tp.date.now("YYYY-MM-DD") %>
 estado: en progreso
 tags:
   - programacion
 ---
 
-# Java
+# <% tp.file.title %>
 
-## 📌 Resumen
+## 📌 ¿Qué es y para que sirve?
 > Breve descripción de qué es y para qué se usa.
 
 ## 🧠 Conceptos clave
