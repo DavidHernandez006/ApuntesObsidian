@@ -28,7 +28,7 @@ SQL ( STRUCTURED QUERY LENGUGAGE ) -  LENGUAJE DE CONSULTA ESTRUCTURADO
 
 En SQL, la información no está flotando en el aire; se organiza de forma muy estricta en una jerarquía:
 
-- **Base de datos (Database):** Es el contenedor principal. Imagínalo como el edificio de una gran biblioteca.
+- **Base de datos (Database):** Es el contenedor principal. 
     
 - **Tablas (Tables):** Son los "estantes" o carpetas dentro de la base de datos. Cada tabla guarda información sobre un tema específico (por ejemplo, una tabla de `Clientes`, otra de `Productos` y otra de `Pedidos`).
     
@@ -41,9 +41,9 @@ En SQL, la información no está flotando en el aire; se organiza de forma muy e
 
 Como las bases de datos están compuestas por muchas tablas, necesitamos una forma de conectarlas entre sí sin que se mezclen los datos. Para eso usamos las **Claves**:
 
-- **Clave Primaria (Primary Key - PK):** Es el identificador único e irrepetible de cada fila en una tabla. Piensa en ella como el número de cédula, DNI o el ID de usuario. No puede haber dos clientes con el mismo ID.
+- **Clave Primaria (Primary Key - PK):** Es el identificador único e irrepetible de cada fila en una tabla. Podría ser un DNI o el ID de usuario. No puede haber dos clientes con el mismo ID.
     
-- **Clave Foránea o Extranjera (Foreign Key - FK):** Es una columna en una tabla que se conecta con la Clave Primaria de _otra_ tabla. Es el "ancla" que une ambas tablas. Por ejemplo, en la tabla `Pedidos`, guardas el `ID_Cliente` para saber exactamente quién hizo la compra sin tener que volver a escribir todo su nombre y dirección.
+- **Clave Foránea o Extranjera (Foreign Key - FK):** Es una columna en una tabla que se conecta con la Clave Primaria de _otra_ tabla. Es el "ancla" que une ambas tablas. Por ejemplo, en la tabla `Pedidos`, se guardaría el `ID_Cliente` para saber exactamente quién hizo la compra sin tener que volver a escribir todo su nombre y dirección.
     
 
 ## 3. Relaciones (Relationships)
