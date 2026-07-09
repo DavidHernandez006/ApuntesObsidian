@@ -2,7 +2,10 @@
   "command_timeout": 5,
   "templates_folder": "Plantillas",
   "templates_pairs": [
-    ["", ""]
+    [
+      "",
+      ""
+    ]
   ],
   "trigger_on_file_creation": false,
   "auto_jump_to_cursor": true,
@@ -26,5 +29,11 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [],
-  "startup_templates": []
+  "startup_templates": [],
+  "intellisense_render": 1,
+  "ignore_folders_on_creation": [
+    {
+      "folder": ""
+    }
+  ]
 }

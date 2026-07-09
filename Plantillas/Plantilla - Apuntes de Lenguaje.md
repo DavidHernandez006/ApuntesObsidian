@@ -9,7 +9,7 @@ tags:
 
 # <% tp.file.title %>
 
-## 📌 Resumen
+## 📌 ¿Qué es y para que sirve?
 > Breve descripción de qué es y para qué se usa.
 
 ## 🧠 Conceptos clave
