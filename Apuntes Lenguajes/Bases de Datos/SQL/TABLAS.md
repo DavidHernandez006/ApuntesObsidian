@@ -1,18 +1,17 @@
 ---
-lenguaje: 
-tipo: 
-nombre: <% tp.file.title %>
-fecha: <% tp.date.now("YYYY-MM-DD") %>
+lenguaje: SQL
+tipo: TABLA
+nombre: TABLAS
+fecha: 2026-07-09
 estado: en progreso
-tags: [apuntes, concepto]
-relacionado: 
+tags:
+  - apuntes
+  - concepto
+relacionado:
 ---
 
-# <% tp.file.title %>
-
-
 ## 📌 Definición
-> Qué es, para qué sirve y cuándo se usa.
+>Una tabla en sql se utiliza 
 
 ## 🖥️ Sintaxis
 ```
@@ -52,3 +51,25 @@ relacionado:
 
 ## 📚 Referencias
 - 
+
+
+
+
+| ID  | NOMBRE | CIUDAD |
+| --- | :----- | ------ |
+| 1   | JUAN   | BOGOTA |
+| 2   | ANA    | BOGOTA |
+| 3   | MARIA  | CALI   |
+## TABLA DE PRODUCTOS
+
+
+| ID  | NOMBRE | PRECIO |
+| --- | ------ | ------ |
+|     |        |        |
+
+## TABLA DE FACTURA
+
+
+| ID  | ID CLIENTE | ID PRODUCTO | ID PRODUCTO |
+| --- | ---------- | ----------- | ----------- |
+|     |            |             |             |
