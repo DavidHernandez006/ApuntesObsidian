@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Plantillas/README - Plugins y Plantilla.md",
+                "file": "DATAVIEW/Sin título.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README - Plugins y Plantilla"
+              "title": "Sin título"
             }
           }
         ]
@@ -197,10 +197,11 @@
   },
   "active": "c6babc5245d8b852",
   "lastOpenFiles": [
+    "Plantillas/README - Plugins y Plantilla.md",
+    "DATAVIEW/Sin título.md",
+    "Plantillas/Plantilla - Concepto de Lenguaje.md",
     "Plantillas/Plantilla - Apuntes de Lenguaje.md",
     "Apuntes Lenguajes/Java.md",
-    "DATAVIEW/Sin título.md",
-    "Plantillas/README - Plugins y Plantilla.md",
     "DATAVIEW",
     "Apuntes Lenguajes/Python.md",
     "Apuntes Lenguajes/Bases de Datos/SQL.md",
