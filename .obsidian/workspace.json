@@ -38,19 +38,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5dc1847e3fc6679c",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
-            }
-          },
-          {
             "id": "bbc6940cb1e9fbdd",
             "type": "leaf",
             "state": {
@@ -75,6 +62,19 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Marcadores"
+            }
+          },
+          {
+            "id": "2ee56fbe928da08a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
             }
           }
         ]
@@ -197,7 +197,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5dc1847e3fc6679c",
+  "active": "c6babc5245d8b852",
   "lastOpenFiles": [
     "Apuntes Lenguajes/Bases de Datos/SQL.md",
     "Apuntes Lenguajes/Bases de Datos/Esquema.canvas",
