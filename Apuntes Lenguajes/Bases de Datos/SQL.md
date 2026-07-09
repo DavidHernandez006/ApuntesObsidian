@@ -1,3 +1,14 @@
+---
+Lenguaje: SQL
+categoria: apuntes
+fecha:
+estado: en progreso
+tags:
+  - programacion
+---
+## 📌¿QUÉ ES Y PARA QUE SE USA?
+
+
 
 ## CATEGORIAS FUNDAMENTALES DE COMANDOS EN SQL
 

@@ -11,17 +11,14 @@
             "id": "c6babc5245d8b852",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Apuntes Lenguajes/Bases de Datos/Esquema.canvas",
-                "viewState": {
-                  "x": -479,
-                  "y": 333,
-                  "zoom": -1
-                }
+                "file": "DATAVIEW/Sin título.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Esquema"
+              "icon": "lucide-file",
+              "title": "Sin título"
             }
           }
         ]
@@ -194,25 +191,35 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "c6babc5245d8b852",
   "lastOpenFiles": [
+    "Plantillas/README - Plugins y Plantilla.md",
+    "DATAVIEW/Sin título.md",
+    "Plantillas/Plantilla - Concepto de Lenguaje.md",
+    "Plantillas/Plantilla - Apuntes de Lenguaje.md",
+    "Apuntes Lenguajes/Java.md",
+    "DATAVIEW",
+    "Apuntes Lenguajes/Python.md",
     "Apuntes Lenguajes/Bases de Datos/SQL.md",
     "Apuntes Lenguajes/Bases de Datos/Esquema.canvas",
+    "Apuntes Lenguajes/Sin título.md",
+    "Sin título.base",
+    "Sin título.md",
+    "Plantillas",
+    "conflict-files-obsidian-git.md",
+    "Sin título.canvas",
     "2026-07-07.md",
     "Sin título 2.canvas",
     "Sin título 2.base",
     "Sin título 3.base",
     "Sin título 1.canvas",
-    "Apuntes Lenguajes/Java.md",
     "Sin título 4.base",
-    "Apuntes Lenguajes/Python.md",
     "Apuntes Lenguajes/Bases de Datos",
     "Ejercicios Programacion",
-    "Sin título.base",
-    "Sin nombre",
     "Apuntes Lenguajes",
     "Sin título 1.base"
   ]
