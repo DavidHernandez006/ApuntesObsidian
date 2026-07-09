@@ -1,9 +1,10 @@
 ---
-lenguaje: 
+lenguaje:
 categoria: apuntes
 fecha: <% tp.date.now("YYYY-MM-DD") %>
 estado: en progreso
-tags: [programacion]
+tags:
+  - programacion
 ---
 
 # <% tp.file.title %>
