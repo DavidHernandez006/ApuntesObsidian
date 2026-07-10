@@ -78,3 +78,5 @@ Cuando escribes en SQL, tus comandos se dividen en diferentes "familias" según 
 - **DML (Data Manipulation Language):** Sirve para gestionar los datos que están dentro de esa estructura. Comandos: `SELECT` (buscar), `INSERT` (añadir), `UPDATE` (modificar), `DELETE` (borrar).
     
 
+
+

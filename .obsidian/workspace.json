@@ -40,14 +40,14 @@
             "id": "0d746cb80c8418aa",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Apuntes Lenguajes/Bases de Datos/SQL/SQL.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "SQL"
             }
           }
         ],
@@ -228,11 +228,11 @@
   },
   "active": "0d746cb80c8418aa",
   "lastOpenFiles": [
+    "Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
     "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/SQL.md",
     "conflict-files-obsidian-git.md",
     "Apuntes Lenguajes/Bases de Datos/SQL.md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
     "Apuntes Lenguajes/Bases de Datos/SQL",
     "Apuntes Lenguajes/Bases de Datos/Esquema.canvas",
     "Sin título.canvas",
