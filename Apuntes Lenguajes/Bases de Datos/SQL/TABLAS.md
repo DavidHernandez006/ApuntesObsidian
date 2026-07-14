@@ -55,6 +55,8 @@ relacionado:
 
 
 
+
+
 | ID  | NOMBRE | CIUDAD |
 | --- | :----- | ------ |
 | 1   | JUAN   | BOGOTA |
@@ -62,6 +64,7 @@ relacionado:
 | 3   | MARIA  | CALI   |
 ## TABLA DE PRODUCTOS
 
+Cr
 
 | ID  | NOMBRE | PRECIO |
 | --- | ------ | ------ |
