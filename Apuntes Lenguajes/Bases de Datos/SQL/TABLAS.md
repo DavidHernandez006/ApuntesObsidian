@@ -53,9 +53,11 @@ relacionado:
 - 
 
 
+## desmoralización y normalización 
 
 
-
+Normalización: Es el proceso de dividir una tabla grande en varias tablas más pequeñas y relacionadas (usando FKs), eliminando la redundancia. (Generalmente es lo mejor para la integridad).
+Desnormalización: Es el proceso de volver a unir datos redundantes en una sola tabla para que las consultas sean más rápidas (sacrificando un poco de integridad por velocidad). (Útil en Data Warehouses o tablas de lectura muy intensivas).
 
 | ID  | NOMBRE | CIUDAD |
 | --- | :----- | ------ |
