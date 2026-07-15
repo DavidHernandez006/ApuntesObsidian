@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apuntes Lenguajes/Bases de Datos/SQL/SQL.md",
+                "file": "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL"
+              "title": "TABLAS"
             }
           }
         ],
@@ -228,15 +228,15 @@
   },
   "active": "0d746cb80c8418aa",
   "lastOpenFiles": [
-    "Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
+    "DATAVIEW/Sin título.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/SQL.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
     "conflict-files-obsidian-git.md",
     "Apuntes Lenguajes/Bases de Datos/SQL.md",
     "Apuntes Lenguajes/Bases de Datos/SQL",
     "Apuntes Lenguajes/Bases de Datos/Esquema.canvas",
     "Sin título.canvas",
-    "DATAVIEW/Sin título.md",
     "Plantillas/README - Plugins y Plantilla.md",
     "Plantillas/Plantilla - Concepto de Lenguaje.md",
     "Plantillas/Plantilla - Apuntes de Lenguaje.md",
