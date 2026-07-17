@@ -2,5 +2,7 @@
   "obsidian-git",
   "templater-obsidian",
   "dataview",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "font-size",
+  "mermaid-icons"
 ]

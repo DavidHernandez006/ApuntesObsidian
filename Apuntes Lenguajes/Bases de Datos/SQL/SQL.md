@@ -6,6 +6,8 @@ estado: en progreso
 tags:
   - programacion
 ---
+
+
 ## 📌¿QUÉ ES Y PARA QUE SE USA?
 SQL ( STRUCTURED QUERY LENGUGAGE ) -  LENGUAJE DE CONSULTA ESTRUCTURADO
 -Base de datos que permite hacer consultas masivamente donde realiza operaciones (CRUD) como 
@@ -50,12 +52,98 @@ Como las bases de datos están compuestas por muchas tablas, necesitamos una for
 
 Gracias a las claves, las tablas pueden relacionarse entre sí. Existen tres tipos de relaciones fundamentales:
 
-- **Uno a Uno (1:1):** Un registro de la Tabla A se relaciona con solo un registro de la Tabla B. _(Ejemplo: Un `Usuario` tiene un solo `Perfil` de preferencias)._
-    
-- **Uno a Muchos (1:N):** El tipo más común. Un registro de la Tabla A se relaciona con muchos de la Tabla B. _(Ejemplo: Un `Cliente` puede realizar muchos `Pedidos`, pero cada pedido pertenece a un solo cliente)._
-    
-- **Muchos a Muchos (N:M):** Muchos registros de la Tabla A se relacionan con muchos de la Tabla B. _(Ejemplo: Muchos `Estudiantes` pueden inscribirse en muchos `Cursos`). En la práctica, esto se resuelve creando una tabla intermedia._
-    
+
+|   Uno a Uno (1:1):    | Un registro de la Tabla A se relaciona con solo un registro de la Tabla B. _(Ejemplo: Un `Usuario` tiene un solo `Perfil` de preferencias)._                                                                   |
+|:---------------------:| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  Uno a Muchos (1:N)   | El tipo más común. Un registro de la Tabla A se relaciona con muchos de la Tabla B. _(Ejemplo: Un `Cliente` puede realizar muchos `Pedidos`, pero cada pedido pertenece a un solo cliente).                    |
+| Muchos a Muchos (N:M) | Muchos registros de la Tabla A se relacionan con muchos de la Tabla B. _(Ejemplo: Muchos `Estudiantes` pueden inscribirse en muchos `Cursos`). En la práctica, esto se resuelve creando una tabla intermedia._ |
+## NOTACION DE CHEN
+
+La notación de Chen es la forma de dibujar un **Modelo Entidad-Relación (MER)** propuesta por Peter Chen en 1976. Es la base gráfica que se usa antes de pasar al diseño de tablas en SQL.
+
+## Elementos básicos
+
+| Elemento                  | Forma                             | Significado                                                                                                        |
+| ------------------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **Entidad**               | Rectángulo                        | Un objeto o concepto del mundo real (ej. `Casa`, `Cliente`, `Producto`)                                            |
+| **Atributo simple**       | Elipse (una línea)                | Una propiedad de la entidad que no se puede dividir (ej. `Precio`)                                                 |
+| **Atributo compuesto**    | Elipse con "sub-elipses" colgando | Un atributo que se puede dividir en partes (ej. `Nombre` → `Nombre` + `Apellido`)                                  |
+| **Atributo multivaluado** | Elipse doble                      | Un atributo que puede tener **varios valores** para una misma entidad (ej. una casa puede tener varias `Ventanas`) |
+| **Atributo derivado**     | Elipse punteada                   | Un atributo que se calcula a partir de otro (ej. `Antigüedad` se calcula desde `Fecha de construcción`)            |
+| **Atributo clave**        | Elipse con texto subrayado        | El atributo que identifica de forma única a la entidad (llave primaria)                                            |
+| **Relación**              | Rombo                             | Un verbo que conecta dos entidades (ej. `Cliente` — _compra_ — `Producto`)                                         |
+
+> [!tip] Regla rápida Si te preguntas "¿esto puede repetirse varias veces para la misma fila?" → es **multivaluado**. Si te preguntas "¿esto lo puedo calcular con otro dato que ya tengo?" → es **derivado**.
+
+## Diagrama: entidad Casa
+
+```mermaid
+flowchart TD
+    Casa["🏠 CASA"]:::entidad
+
+    Tamano("Tamaño"):::simple
+    Direccion("Dirección"):::simple
+    Precio("Precio"):::simple
+    Propietario("Propietario"):::simple
+    Fecha("Fecha de<br/>construcción"):::simple
+
+    Ventanas[["Ventanas"]]:::multivalor
+    Puertas[["Puertas"]]:::multivalor
+    Ambientes[["Ambientes"]]:::multivalor
+
+    Antiguedad(("Antigüedad")):::derivado
+    Ubicacion(("Ubicación")):::derivado
+
+    Casa --- Tamano
+    Casa --- Direccion
+    Casa --- Precio
+    Casa --- Propietario
+    Casa --- Fecha
+    Casa --- Ventanas
+    Casa --- Puertas
+    Casa --- Ambientes
+    Casa --- Antiguedad
+    Casa --- Ubicacion
+
+    classDef entidad fill:#2b2b1f,stroke:#f5a623,stroke-width:3px,color:#fff,font-weight:bold
+    classDef simple fill:#1a2f38,stroke:#00b4d8,stroke-width:2px,color:#fff
+    classDef multivalor fill:#332a1a,stroke:#f5a623,stroke-width:3px,color:#fff
+    classDef derivado fill:#1a2f38,stroke:#00b4d8,stroke-width:2px,stroke-dasharray:5 5,color:#fff
+```
+
+**Leyenda de formas usadas arriba** (adaptadas a lo que Mermaid permite dibujar):
+
+- Rectángulo `["..."]` → Entidad
+- Óvalo `("...")` → Atributo simple
+- Doble borde `[["..."]]` → Atributo multivaluado (Ventanas, Puertas, Ambientes: una casa puede tener varias)
+- Círculo `(("..."))` con borde punteado → Atributo derivado (Antigüedad y Ubicación se calculan/derivan de otros datos)
+
+## Relaciones y cardinalidad (complemento)
+
+Aunque tu imagen se enfoca en atributos, el modelo de Chen también define cómo se conectan dos entidades mediante un rombo, con la cardinalidad escrita en los extremos de la línea:
+
+```mermaid
+flowchart LR
+    A["Cliente"]:::entidad -->|"1"| R{"Compra"}:::relacion
+    R -->|"N"| B["Producto"]:::entidad
+
+    classDef entidad fill:#2b2b1f,stroke:#f5a623,stroke-width:3px,color:#fff
+    classDef relacion fill:#332222,stroke:#e0555f,stroke-width:2px,color:#fff
+```
+
+- **1:1** → un cliente tiene un solo carnet
+- **1:N** → un cliente compra muchos productos
+- **N:M** → muchos estudiantes cursan muchas materias
+
+## Notas rápidas para repasar
+
+- El modelo ER es el paso previo al diseño de tablas: cada entidad suele convertirse en una tabla, y cada atributo en una columna.
+- Los atributos multivaluados normalmente **no se dejan como columna múltiple**: se convierten en su propia tabla relacionada (por eso Dalto insiste tanto en identificarlos bien desde el diagrama).
+- Los atributos derivados casi nunca se guardan como columna física; se calculan con una consulta (`SELECT`) cuando se necesitan.
+
+---
+
+
 
 ## 4. Tipos de Datos (Data Types)
 
@@ -69,14 +157,8 @@ Cada columna en SQL debe tener definido qué tipo de información va a guardar. 
 | **DATE / DATETIME** | Fechas y horas.                       | `Fecha_Compra: '2026-07-09'`          |
 | **BOOLEAN**         | Valores lógicos de verdadero o falso. | `Activo: TRUE`                        |
 
-## 5. El Lenguaje: Los subconjuntos de SQL
 
-Cuando escribes en SQL, tus comandos se dividen en diferentes "familias" según lo que le estás pidiendo al sistema:
 
-- **DDL (Data Definition Language):** Sirve para definir la estructura (crear el cascarón). Comandos: `CREATE TABLE` (crear tabla), `ALTER TABLE` (modificar tabla).
-    
-- **DML (Data Manipulation Language):** Sirve para gestionar los datos que están dentro de esa estructura. Comandos: `SELECT` (buscar), `INSERT` (añadir), `UPDATE` (modificar), `DELETE` (borrar).
-    
 
 
 
