@@ -1,15 +1,19 @@
 ---
-concepto: 
-categoria: # API | Protocolo | Arquitectura | Base de datos | DevOps | Lenguaje | Patrón
-fecha: {{date}}
-tags: [programacion, dev, conceptos]
-nivel: # básico | intermedio | avanzado
+concepto: API
+categoria: Conceptos Programación
+fecha:
+  "{ date }":
+tags:
+  - programacion
+  - dev
+  - conceptos
+nivel:
 estado: en-progreso
 ---
 
-# 💻 {{concepto}}
+# 💻 API
 
-## 🧠 ¿Qué es?
+## 🧠 ¿Qué es? (explicación simple)
 > Como si se lo explicaras a alguien sin experiencia técnica.
 
 
