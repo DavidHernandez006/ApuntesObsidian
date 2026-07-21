@@ -1,0 +1,20 @@
+{
+  "font-size:increment-font-size": [
+    {
+      "modifiers": [],
+      "key": "F12"
+    }
+  ],
+  "font-size:decrement-font-size": [
+    {
+      "modifiers": [],
+      "key": "F11"
+    }
+  ],
+  "font-size:reset-font-size": [
+    {
+      "modifiers": [],
+      "key": "F10"
+    }
+  ]
+}

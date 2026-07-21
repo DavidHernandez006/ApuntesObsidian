@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"bd74499303452c62","x":-119,"y":-120,"width":280,"height":80,"type":"text","text":"# UNIVERSIDAD\n"},
+		{"id":"f323ef6fa5c7f69a","x":-89,"y":44,"width":250,"height":60,"type":"text","text":"ESTUDIANTES"},
+		{"id":"f67d4ec05dd363ec","x":880,"y":44,"width":250,"height":60,"type":"text","text":"MATRICULA"},
+		{"id":"2c158354614fecb5","x":440,"y":44,"width":250,"height":60,"type":"text","text":"###### PROFESORES"},
+		{"id":"795985d14657d47a","x":-1120,"y":44,"width":250,"height":60,"type":"text","text":"PROGRAMA"},
+		{"id":"d0f7a4a2a2e50105","x":-600,"y":44,"width":250,"height":60,"type":"text","text":"INSCRIPCIONES"},
+		{"id":"f7ee9a09eab57bb9","x":-1340,"y":200,"width":560,"height":240,"type":"text","text":"\n| codigo materia | materia |     |\n| -------------- | ------- | --- |\n|                |         |     |\n|                |         |     |\n"},
+		{"id":"5bcc8cc1a45bdbad","x":-660,"y":200,"width":250,"height":60,"type":"text","text":"\n|     | semestr |\n| --- | ------- |\n|     |         |\n"}
+	],
+	"edges":[]
+}
