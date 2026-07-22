@@ -5,9 +5,8 @@ nombre: NOTACION DE CHEN
 fecha: 2026-07-22
 estado: en progreso
 tags:
-  - apuntes
   - concepto
-relacionado: TABLAS SQL,
+relacionado:
 ---
 #apuntes #concepto #conceptos 
 # NOTACION DE CHEN
@@ -70,6 +69,26 @@ flowchart TD
 ```
 
 
+> [!tip] Regla rápida Si te preguntas "¿esto puede repetirse varias veces para la misma fila?" → es **multivaluado**. Si te preguntas "¿esto lo puedo calcular con otro dato que ya tengo?" → es **derivado**.
+
+**Leyenda de formas usadas arriba** (adaptadas a lo que Mermaid permite dibujar):
+
+- Rectángulo  → Entidad
+- Óvalo  → Atributo simple
+- Doble borde → Atributo multivaluado (Ventanas, Puertas, Ambientes: una casa puede tener varias)
+- Círculo  con borde punteado → Atributo derivado (Antigüedad y Ubicación se calculan/derivan de otros datos)
+
+## Relaciones y cardinalidad (complemento)
+
+- **1:1** → un cliente tiene un solo carnet
+- **1:N** → un cliente compra muchos productos
+- **N:M** → muchos estudiantes cursan muchas materias
+
+## Notas rápidas para repasar
+
+- El modelo ER es el paso previo al diseño de tablas: cada entidad suele convertirse en una tabla, y cada atributo en una columna.
+- Los atributos multivaluados normalmente **no se dejan como columna múltiple**: se convierten en su propia tabla relacionada (por eso Dalto insiste tanto en identificarlos bien desde el diagrama).
+- Los atributos derivados casi nunca se guardan como columna física; se calculan con una consulta (`SELECT`) cuando se necesitan.
 ## 🧪 Casos de uso comunes
 - 
 - 
@@ -77,8 +96,5 @@ flowchart TD
 ## ⚠️ Errores comunes
 - 
 
-## 🔗 Ver también
-- [[]]
 
-## 📚 Referencias
-- 
+
