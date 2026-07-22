@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "57fc893465e17714",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Apuntes Lenguajes/Bases de Datos/SQL/Joins en tablas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Joins en tablas"
+            }
+          },
+          {
             "id": "dc811732e5ac4d39",
             "type": "leaf",
             "state": {
@@ -31,7 +45,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,20 +206,32 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4529cef0bc9a0445",
+  "active": "57fc893465e17714",
   "lastOpenFiles": [
-    "Sin título.canvas",
-    "/Sin título.canvas",
+    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/Sin título.canvas",
+    "Apuntes Ingles/Glosario.md",
+    "/Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/Sin título.canvas",
+    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/DISEÑO Y MODELADO/NOTACION DE CHEN.md",
+    "/Apuntes Ingles/Glosario.md",
+    "/Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/DISEÑO Y MODELADO/NOTACION DE CHEN.md",
     "/Apuntes Lenguajes/Bases de Datos/SQL/SQL.md",
+    "/Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
+    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS",
+    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/DISEÑO Y MODELADO",
+    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL",
+    "Apuntes Ingles",
+    "/Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS",
+    "/Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/DISEÑO Y MODELADO",
+    "/Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL",
+    "/Apuntes Ingles",
     "/Apuntes Lenguajes/Bases de Datos/SQL",
     "/Apuntes Lenguajes/Bases de Datos",
-    "/Apuntes Lenguajes",
-    "Plantillas/Plantilla-Aprender-Ingles.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/Joins en tablas.md",
+    "Sin título.canvas",
     "Plantillas/Plantilla-Conceptos-Programacion.md",
+    "/Sin título.canvas",
+    "Plantillas/Plantilla-Aprender-Ingles.md",
     "Conceptos de programación/API.md",
-    "Apuntes inglés",
-    "Apuntes matemáticas-fisica",
-    "Conceptos de programación",
     "Apuntes Lenguajes/Python.md",
     "DATAVIEW/Sin título.md",
     "Plantillas/Plantilla-Matematicas-Fisica.md",
@@ -218,19 +245,11 @@
     "/Plantillas/Plantilla - Apuntes de Lenguaje.md",
     "/Apuntes Lenguajes/Java.md",
     "/Apuntes Lenguajes/Bases de Datos/SQL/TABLAS.md",
-    "/Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
     "/Plantillas/Plantilla - Concepto de Lenguaje.md",
     "/DATAVIEW/Sin título.md",
     "/Apuntes Lenguajes/Python.md",
     "Apuntes Lenguajes/Bases de Datos/Esquema.canvas",
-    "Plantillas",
-    "DATAVIEW",
-    "Apuntes Lenguajes/Bases de Datos/SQL",
-    "/Plantillas",
     "Apuntes Lenguajes/Bases de Datos/SQL.md",
-    "Apuntes Lenguajes/Java.md",
-    "/Apuntes Lenguajes/Bases de Datos/SQL.md",
-    "/Apuntes Lenguajes/Bases de Datos/Esquema.canvas",
-    "Apuntes Lenguajes.md"
+    "/Apuntes Lenguajes/Bases de Datos/Esquema.canvas"
   ]
 }
