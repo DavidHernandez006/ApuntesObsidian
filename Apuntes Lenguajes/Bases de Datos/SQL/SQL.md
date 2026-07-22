@@ -28,8 +28,6 @@ SQL ( STRUCTURED QUERY LENGUGAGE ) -  LENGUAJE DE CONSULTA ESTRUCTURADO
 
 ## 1. La Estructura de los Datos
 
-En SQL, la información no está flotando en el aire; se organiza de forma muy estricta en una jerarquía:
-
 - **Base de datos (Database):** Es el contenedor principal. 
     
 - **Tablas (Tables):** Son los "estantes" o carpetas dentro de la base de datos. Cada tabla guarda información sobre un tema específico (por ejemplo, una tabla de `Clientes`, otra de `Productos` y otra de `Pedidos`).
