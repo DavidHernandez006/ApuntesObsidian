@@ -1,5 +1,5 @@
 {
-  "userId": "0005657f-bbb2-45c9-9aee-5c4482a739e1",
+  "userId": "b3d618e3-d7df-47b3-bda3-c7f1d9f94811",
   "isPlusUser": false,
   "plusLicenseKey": "",
   "openAIApiKey": "",
@@ -24,7 +24,7 @@
   "githubCopilotToken": "",
   "githubCopilotTokenExpiresAt": 0,
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "google/gemini-2.5-flash|openrouterai",
+  "defaultModelKey": "gemini-3.5-flash|google",
   "embeddingModelKey": "openai/text-embedding-3-small|openrouterai",
   "temperature": 0.1,
   "maxTokens": 6000,
@@ -106,8 +106,8 @@
       "isBuiltIn": true,
       "projectEnabled": true,
       "capabilities": [
-        "vision",
-        "reasoning"
+        "reasoning",
+        "vision"
       ],
       "apiKey": ""
     },
@@ -117,8 +117,8 @@
       "enabled": true,
       "isBuiltIn": true,
       "capabilities": [
-        "vision",
-        "reasoning"
+        "reasoning",
+        "vision"
       ],
       "apiKey": ""
     },
@@ -129,8 +129,8 @@
       "isBuiltIn": true,
       "projectEnabled": true,
       "capabilities": [
-        "vision",
-        "reasoning"
+        "reasoning",
+        "vision"
       ],
       "apiKey": ""
     },
@@ -162,8 +162,8 @@
       "enabled": false,
       "isBuiltIn": true,
       "capabilities": [
-        "vision",
-        "reasoning"
+        "reasoning",
+        "vision"
       ],
       "apiKey": ""
     },
@@ -257,8 +257,8 @@
       "enabled": false,
       "isBuiltIn": true,
       "capabilities": [
-        "vision",
-        "reasoning"
+        "reasoning",
+        "vision"
       ],
       "apiKey": ""
     },
@@ -268,8 +268,8 @@
       "enabled": false,
       "isBuiltIn": true,
       "capabilities": [
-        "vision",
-        "reasoning"
+        "reasoning",
+        "vision"
       ],
       "apiKey": ""
     },
@@ -279,8 +279,8 @@
       "enabled": false,
       "isBuiltIn": true,
       "capabilities": [
-        "vision",
-        "reasoning"
+        "reasoning",
+        "vision"
       ],
       "apiKey": ""
     },
@@ -329,6 +329,12 @@
       "capabilities": [
         "reasoning"
       ],
+      "apiKey": ""
+    },
+    {
+      "name": "gemini-3.5-flash-lite",
+      "provider": "google",
+      "enabled": true,
       "apiKey": ""
     }
   ],
@@ -478,7 +484,7 @@
   "perplexityApiKey": "",
   "supadataApiKey": "",
   "enableLexicalBoosts": true,
-  "suggestedDefaultCommands": true,
+  "suggestedDefaultCommands": false,
   "autonomousAgentMaxIterations": 4,
   "autonomousAgentEnabledToolIds": [
     "localSearch",
@@ -506,5 +512,5 @@
   "autoCompactThreshold": 128000,
   "convertedDocOutputFolder": "",
   "_keychainOnly": true,
-  "_keychainVaultId": "f7b33bba"
+  "_keychainVaultId": "77824d11"
 }

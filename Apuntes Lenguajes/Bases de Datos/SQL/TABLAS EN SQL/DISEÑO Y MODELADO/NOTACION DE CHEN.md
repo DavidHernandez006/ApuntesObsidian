@@ -15,11 +15,6 @@ relacionado:
 ## 📌 Definición
 > La notación de Chen es la forma de dibujar un **Modelo Entidad-Relación (MER)** propuesta por Peter Chen en 1976. Es la base gráfica que se usa antes de pasar al diseño de tablas en SQL.
 
-## 🖥️ Sintaxis
-```
-// estructura general de uso
-```
-
 ## 🧩 Parámetros / Atributos
 | Elemento                  | Forma                             | Significado                                                                                                        |
 | ------------------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
@@ -71,7 +66,7 @@ flowchart TD
 
 > [!tip] Regla rápida Si te preguntas "¿esto puede repetirse varias veces para la misma fila?" → es **multivaluado**. Si te preguntas "¿esto lo puedo calcular con otro dato que ya tengo?" → es **derivado**.
 
-**Leyenda de formas usadas arriba** (adaptadas a lo que Mermaid permite dibujar):
+**Leyenda de formas usadas arriba** :
 
 - Rectángulo  → Entidad
 - Óvalo  → Atributo simple
