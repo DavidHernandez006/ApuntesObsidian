@@ -67,5 +67,3 @@ WHERE Pedidos.id_cliente IS NULL;
 - [[Count()]]
 - [[SQL]]
 
-## 📚 Referencias
-- 

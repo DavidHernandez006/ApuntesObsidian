@@ -56,5 +56,4 @@ mysql -u usuario -p nombre_basededatos < backup.sql
 - [[normalización de tabla]]
 - [[SQL]]
 
-## 📚 Referencias
-- 
+

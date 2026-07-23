@@ -85,14 +85,11 @@ flowchart TD
 ## Notas rápidas para repasar
 
 - El modelo ER es el paso previo al diseño de tablas: cada entidad suele convertirse en una tabla, y cada atributo en una columna.
-- Los atributos multivaluados normalmente **no se dejan como columna múltiple**: se convierten en su propia tabla relacionada (por eso Dalto insiste tanto en identificarlos bien desde el diagrama).
+- Los atributos multivaluados normalmente **no se dejan como columna múltiple**: se convierten en su propia tabla relacionada 
 - Los atributos derivados casi nunca se guardan como columna física; se calculan con una consulta (`SELECT`) cuando se necesitan.
 ## 🧪 Casos de uso comunes
 - El modelado de chen donde se utiliza relaciones y cardinalidad se podria utilizar para definir valores como: salarios, notas, estadísticas, para organizar información de una institución o de clientes, entre otras mas, donde se utiliza valores de 1:1 (uno a uno), 1:N (de uno a muchos), N:M ( de muchos a muchos)
 - También podría utilizarse para mantener tasas de intereses en un banco o en otra entidad donde se podría mantener esos valores o en tal caso actualizar, modificar o dividir valores en la base de datos
-
-## ⚠️ Errores comunes
-- 
 
 ## 🔗 Ver también
 - [[normalización de tabla]]

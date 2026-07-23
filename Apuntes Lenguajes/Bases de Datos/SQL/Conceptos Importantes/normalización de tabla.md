@@ -24,11 +24,11 @@ No aplica código directo: es un proceso de diseño, no un comando SQL.
 ```
 
 ## 🧩 Formas normales principales
-| Forma | Qué exige | Ejemplo de problema que resuelve |
-| ------ | ---- | ----------- |
-| **1FN** (Primera Forma Normal) | Cada columna debe tener valores atómicos (no listas ni valores repetidos en una celda) | Evita guardar `"Juan, Pedro, Ana"` en una sola celda de teléfonos |
-| **2FN** (Segunda Forma Normal) | Cumple 1FN y todos los atributos dependen de la clave primaria completa (no de solo una parte) | Evita repetir el nombre del profesor en cada fila de un curso |
-| **3FN** (Tercera Forma Normal) | Cumple 2FN y no hay dependencias entre columnas que no sean clave (dependencias transitivas) | Evita guardar la ciudad y el código postal cuando ya existe la ciudad en otra tabla |
+| Forma                          | Qué exige                                                                                      | Ejemplo de problema que resuelve                                                     |
+| ------------------------------ | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| **1FN** (Primera Forma Normal) | Cada columna debe tener valores atómicos (no listas ni valores repetidos en una celda)         | Evitar guardar `"Juan, Pedro, Ana"` en una sola celda de teléfonos                   |
+| **2FN** (Segunda Forma Normal) | Cumple 1FN y todos los atributos dependen de la clave primaria completa (no de solo una parte) | Evitar repetir el nombre del profesor en cada fila de un curso                       |
+| **3FN** (Tercera Forma Normal) | Cumple 2FN y no hay dependencias entre columnas que no sean clave (dependencias transitivas)   | Evitar guardar la ciudad y el código postal cuando ya existe la ciudad en otra tabla |
 
 ## 💡 Ejemplos prácticos
 ```sql
@@ -67,5 +67,3 @@ CREATE TABLE Estudiantes_Cursos (
 - [[backup en sql]]
 - [[SQL]]
 
-## 📚 Referencias
-- 
