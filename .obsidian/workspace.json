@@ -229,12 +229,15 @@
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "copilot:Open Copilot Chat": false,
-      "soundscapes:Soundscapes: My Music": false
+      "copilot:Open Copilot Chat": false
     }
   },
   "active": "5dc1847e3fc6679c",
   "lastOpenFiles": [
+    "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/SUM().md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/MAX() y MIN().md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/Funciones de texto y fecha.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/AVG().md",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/Joins en tablas.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/backup en sql.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/Count().md",
@@ -259,10 +262,6 @@
     "copilot/copilot-custom-prompts/Generate table of contents.md",
     "copilot/copilot-custom-prompts/Generate glossary.md",
     "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
-    "copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "copilot/copilot-custom-prompts/Emojify.md",
-    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
-    "copilot/copilot-custom-prompts/Clip Web Page.md",
     "copilot/copilot-custom-prompts",
     "copilot",
     "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/Sin título.canvas",
