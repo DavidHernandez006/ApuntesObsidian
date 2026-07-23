@@ -188,9 +188,19 @@
           "icon": "git-pull-request",
           "title": "Source Control"
         }
+      },
+      {
+        "id": "bc276ea6ca55d447",
+        "type": "leaf",
+        "state": {
+          "type": "copilot-chat-view",
+          "state": {},
+          "icon": "message-square",
+          "title": "Copilot"
+        }
       }
     ],
-    "currentTab": 3
+    "currentTab": 4
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,11 +213,29 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "57fc893465e17714",
+  "active": "bc276ea6ca55d447",
   "lastOpenFiles": [
+    "copilot/copilot-custom-prompts/Clip Web Page.md",
+    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Simplify.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts/Translate to Chinese.md",
+    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot/copilot-custom-prompts",
+    "copilot",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/Joins en tablas.md",
     "Apuntes Ingles/Glosario.md",
     "Apuntes Lenguajes/Java/Java.md",
@@ -226,30 +254,13 @@
     "/Apuntes Lenguajes/Java",
     "/Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes",
-    "/Apuntes Lenguajes/Bases de Datos/SQL",
-    "/Apuntes Lenguajes/Bases de Datos",
     "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/Sin título.canvas",
     "/Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/Sin título.canvas",
     "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/DISEÑO Y MODELADO/NOTACION DE CHEN.md",
-    "/Apuntes Ingles/Glosario.md",
     "/Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
     "Sin título.canvas",
-    "Plantillas/Plantilla-Conceptos-Programacion.md",
     "/Sin título.canvas",
-    "Plantillas/Plantilla-Aprender-Ingles.md",
-    "Conceptos de programación/API.md",
-    "Apuntes Lenguajes/Python.md",
-    "DATAVIEW/Sin título.md",
-    "Plantillas/Plantilla-Matematicas-Fisica.md",
-    "Plantillas/Plantilla - Apuntes de Lenguaje.md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS.md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/SQL.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
-    "Plantillas/README - Plugins y Plantilla.md",
-    "Plantillas/Plantilla - Concepto de Lenguaje.md",
-    "/Plantillas/README - Plugins y Plantilla.md",
-    "/Plantillas/Plantilla - Apuntes de Lenguaje.md",
-    "/Apuntes Lenguajes/Java.md",
     "Apuntes Lenguajes/Bases de Datos/Esquema.canvas",
     "/Apuntes Lenguajes/Bases de Datos/Esquema.canvas"
   ]
