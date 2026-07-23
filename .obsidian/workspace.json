@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/backup en sql.md",
+                "file": "Conceptos de programación/API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "backup en sql"
+              "title": "API"
             }
           }
         ],
@@ -232,20 +232,25 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "5dc1847e3fc6679c",
+  "active": "1ab8f47827df65b6",
   "lastOpenFiles": [
+    "Apuntes Lenguajes/Python/Python.md",
+    "Apuntes Lenguajes/Java/Java.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
+    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/Sin título.canvas",
+    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/DISEÑO Y MODELADO/NOTACION DE CHEN.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/SUM().md",
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/MAX() y MIN().md",
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/Funciones de texto y fecha.md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/AVG().md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/Joins en tablas.md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/backup en sql.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/Count().md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/AVG().md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/normalización de tabla.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/backup en sql.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/Joins en tablas.md",
     "Plantillas/Plantilla - Concepto de Lenguaje (funciones-clases-metodos).md",
     "Plantillas/Plantilla-Conceptos-Programacion.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/Sin título.md",
     "Plantillas/Plantilla - Apuntes de Lenguaje.md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/DISEÑO Y MODELADO/NOTACION DE CHEN.md",
     "Sin título.base",
     "copilot/copilot-conversations/Questions_on_NOTACION_DE_CHEN@20260723_104333.md",
     "copilot/copilot-conversations/What_key_questions_does_activeNote_answer@20260723_103706.md",
@@ -259,13 +264,8 @@
     "copilot/copilot-custom-prompts/Remove URLs.md",
     "copilot/copilot-custom-prompts/Make shorter.md",
     "copilot/copilot-custom-prompts/Make longer.md",
-    "copilot/copilot-custom-prompts/Generate table of contents.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
-    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot/copilot-custom-prompts",
     "copilot",
-    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/Sin título.canvas",
-    "Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes",
     "Apuntes Lenguajes/Python",
     "Apuntes Lenguajes/Java",

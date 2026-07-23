@@ -19,12 +19,12 @@ mysqldump -u usuario -p nombre_basededatos > backup.sql
 ```
 
 ## 🧩 Parámetros / Atributos
-| Nombre | Tipo | Obligatorio | Descripción |
-| ------ | ---- | ----------- | ----------- |
-| `-u usuario` | flag | Sí | Usuario de MySQL con permisos sobre la base de datos. |
-| `-p` | flag | Sí | Solicita la contraseña del usuario de forma interactiva. |
-| `nombre_basededatos` | texto | Sí | Nombre de la base de datos (o tabla) a respaldar. |
-| `> backup.sql` | redirección | Sí | Archivo donde se guarda el respaldo generado. |
+| Nombre               | Tipo        | Obligatorio | Descripción                                              |
+| -------------------- | ----------- | ----------- | -------------------------------------------------------- |
+| `-u usuario`         | flag        | Sí          | Usuario de MySQL con permisos sobre la base de datos.    |
+| `-p`                 | flag        | Sí          | Solicita la contraseña del usuario de forma interactiva. |
+| `nombre_basededatos` | texto       | Sí          | Nombre de la base de datos (o tabla) a respaldar.        |
+| `> backup.sql`       | redirección | Sí          | Archivo donde se guarda el respaldo generado.            |
 
 ## 💡 Ejemplos prácticos
 ```bash
