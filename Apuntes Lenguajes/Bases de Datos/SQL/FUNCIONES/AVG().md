@@ -8,7 +8,10 @@ tags:
   - apuntes
   - concepto
   - funciones
-relacionado: [[SUM()]], [[Count()]]
+relacionado:
+  - "[[SUM()]]"
+  - "[[Count()]]"
+  - "[[SQL]]"
 ---
 
 ## 📌 Definición
@@ -48,3 +51,9 @@ GROUP BY id_curso;
 - Ignorar que `AVG()` no toma en cuenta los `NULL` al calcular el promedio (no los trata como 0).
 - Aplicarlo sobre columnas de texto.
 - Esperar decimales exactos sin redondear (conviene usar `ROUND(AVG(columna), 2)`).
+
+## 🔗 Ver también
+- [[SUM()]]
+- [[Count()]]
+- [[MAX() y MIN()]]
+- [[SQL]]

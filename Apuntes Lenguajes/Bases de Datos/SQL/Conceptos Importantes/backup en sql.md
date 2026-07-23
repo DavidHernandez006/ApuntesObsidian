@@ -8,6 +8,8 @@ tags:
   - apuntes
   - concepto
 relacionado:
+  - "[[normalización de tabla]]"
+  - "[[SQL]]"
 ---
 
 ## 📌 Definición
@@ -52,6 +54,7 @@ mysql -u usuario -p nombre_basededatos < backup.sql
 
 ## 🔗 Ver también
 - [[normalización de tabla]]
+- [[SQL]]
 
 ## 📚 Referencias
 - 

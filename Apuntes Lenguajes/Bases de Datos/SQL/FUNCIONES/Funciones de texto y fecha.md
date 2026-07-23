@@ -8,7 +8,9 @@ tags:
   - apuntes
   - concepto
   - funciones
-relacionado: [[Count()]]
+relacionado:
+  - "[[Count()]]"
+  - "[[SQL]]"
 ---
 
 ## 📌 Definición
@@ -60,3 +62,7 @@ WHERE DATEDIFF(NOW(), fecha_pedido) <= 7;
 - El nombre exacto de estas funciones puede variar según el motor de base de datos (MySQL, PostgreSQL, SQL Server tienen pequeñas diferencias, sobre todo en funciones de fecha).
 - Olvidar comillas simples en los literales de texto (`'hola'` en vez de `hola`).
 - Confundir `NOW()` (fecha y hora) con `CURDATE()`/`CURRENT_DATE` (solo fecha).
+
+## 🔗 Ver también
+- [[Count()]]
+- [[SQL]]
