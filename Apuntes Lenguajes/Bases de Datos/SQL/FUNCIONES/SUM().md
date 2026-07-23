@@ -8,7 +8,10 @@ tags:
   - apuntes
   - concepto
   - funciones
-relacionado: [[Count()]], [[AVG()]]
+relacionado:
+  - "[[Count()]]"
+  - "[[AVG()]]"
+  - "[[SQL]]"
 ---
 
 ## 📌 Definición
@@ -48,3 +51,9 @@ GROUP BY id_cliente;
 - Usarlo sobre una columna de texto (da error o resultado inesperado).
 - Olvidar que `SUM()` ignora los valores `NULL` (no los cuenta como 0, simplemente los omite).
 - No usar `GROUP BY` cuando se mezcla `SUM()` con otra columna no agregada en el `SELECT`.
+
+## 🔗 Ver también
+- [[Count()]]
+- [[AVG()]]
+- [[MAX() y MIN()]]
+- [[SQL]]

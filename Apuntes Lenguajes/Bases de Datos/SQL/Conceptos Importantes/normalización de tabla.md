@@ -7,7 +7,10 @@ estado: en progreso
 tags:
   - apuntes
   - concepto
-relacionado: [[Joins en tablas]]
+relacionado:
+  - "[[Joins en tablas]]"
+  - "[[NOTACION DE CHEN]]"
+  - "[[SQL]]"
 ---
 
 # Normalización de tablas
@@ -60,6 +63,9 @@ CREATE TABLE Estudiantes_Cursos (
 
 ## 🔗 Ver también
 - [[Joins en tablas]]
+- [[NOTACION DE CHEN]]
+- [[backup en sql]]
+- [[SQL]]
 
 ## 📚 Referencias
 - 

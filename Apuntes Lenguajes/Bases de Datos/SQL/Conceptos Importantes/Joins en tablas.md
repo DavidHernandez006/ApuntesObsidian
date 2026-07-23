@@ -9,7 +9,10 @@ tags:
   - concepto
 tipo: Joins en tablas
 nombre: Joins en tablas
-relacionado: [[normalización de tabla]]
+relacionado:
+  - "[[normalización de tabla]]"
+  - "[[Count()]]"
+  - "[[SQL]]"
 ---
 
 # Joins en tablas
@@ -60,7 +63,9 @@ WHERE Pedidos.id_cliente IS NULL;
 
 ## 🔗 Ver también
 - [[normalización de tabla]]
+- [[NOTACION DE CHEN]]
 - [[Count()]]
+- [[SQL]]
 
 ## 📚 Referencias
 - 

@@ -5,6 +5,16 @@ fecha:
 estado: en progreso
 tags:
   - programacion
+relacionado:
+  - "[[Count()]]"
+  - "[[SUM()]]"
+  - "[[AVG()]]"
+  - "[[MAX() y MIN()]]"
+  - "[[Funciones de texto y fecha]]"
+  - "[[Joins en tablas]]"
+  - "[[normalización de tabla]]"
+  - "[[NOTACION DE CHEN]]"
+  - "[[backup en sql]]"
 ---
 
 
@@ -69,8 +79,9 @@ Cada columna en SQL debe tener definido qué tipo de información va a guardar. 
 | **DATE / DATETIME** | Fechas y horas.                       | `Fecha_Compra: '2026-07-09'`          |
 | **BOOLEAN**         | Valores lógicos de verdadero o falso. | `Activo: TRUE`                        |
 
-
-
+## 🔗 Notas relacionadas
+- **Funciones:** [[Count()]] · [[SUM()]] · [[AVG()]] · [[MAX() y MIN()]] · [[Funciones de texto y fecha]]
+- **Conceptos:** [[Joins en tablas]] · [[normalización de tabla]] · [[NOTACION DE CHEN]] · [[backup en sql]]
 
 
 

@@ -8,7 +8,11 @@ tags:
   - apuntes
   - concepto
   - funciones
-relacionado: [[SUM()]], [[AVG()]]
+relacionado:
+  - "[[SUM()]]"
+  - "[[AVG()]]"
+  - "[[MAX() y MIN()]]"
+  - "[[SQL]]"
 ---
 
 ## 📌 Definición
@@ -49,3 +53,9 @@ GROUP BY ciudad;
 - Usar `COUNT(columna)` esperando que cuente los `NULL` (no los cuenta, solo `COUNT(*)` los incluye).
 - Olvidar `GROUP BY` cuando se combina `COUNT()` con otra columna en el `SELECT`.
 - Confundir `COUNT(DISTINCT columna)` con `COUNT(columna)`, dando resultados distintos si hay valores repetidos.
+
+## 🔗 Ver también
+- [[SUM()]]
+- [[AVG()]]
+- [[MAX() y MIN()]]
+- [[SQL]]

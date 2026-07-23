@@ -7,6 +7,9 @@ estado: en progreso
 tags:
   - concepto
 relacionado:
+  - "[[normalización de tabla]]"
+  - "[[Joins en tablas]]"
+  - "[[SQL]]"
 ---
 
 # NOTACION DE CHEN
@@ -90,6 +93,11 @@ flowchart TD
 
 ## ⚠️ Errores comunes
 - 
+
+## 🔗 Ver también
+- [[normalización de tabla]]
+- [[Joins en tablas]]
+- [[SQL]]
 
 
 

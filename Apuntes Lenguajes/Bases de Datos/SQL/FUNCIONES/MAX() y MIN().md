@@ -8,7 +8,10 @@ tags:
   - apuntes
   - concepto
   - funciones
-relacionado: [[AVG()]], [[Count()]]
+relacionado:
+  - "[[AVG()]]"
+  - "[[Count()]]"
+  - "[[SQL]]"
 ---
 
 ## 📌 Definición
@@ -47,3 +50,9 @@ GROUP BY id_cliente;
 ## ⚠️ Errores comunes
 - Pensar que `MAX()`/`MIN()` filtran filas completas automáticamente (solo devuelven el valor, no la fila entera; para eso se necesita un `JOIN` o subconsulta).
 - Aplicarlos sin `GROUP BY` cuando se necesita el máximo/mínimo por grupo.
+
+## 🔗 Ver también
+- [[AVG()]]
+- [[SUM()]]
+- [[Count()]]
+- [[SQL]]
