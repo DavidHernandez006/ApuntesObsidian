@@ -1,13 +1,83 @@
 {
-	"nodes":[
-		{"id":"bd74499303452c62","x":-119,"y":-120,"width":280,"height":80,"type":"text","text":"# UNIVERSIDAD\n"},
-		{"id":"f323ef6fa5c7f69a","x":-89,"y":44,"width":250,"height":60,"type":"text","text":"ESTUDIANTES"},
-		{"id":"f67d4ec05dd363ec","x":880,"y":44,"width":250,"height":60,"type":"text","text":"MATRICULA"},
-		{"id":"2c158354614fecb5","x":440,"y":44,"width":250,"height":60,"type":"text","text":"###### PROFESORES"},
-		{"id":"795985d14657d47a","x":-1120,"y":44,"width":250,"height":60,"type":"text","text":"PROGRAMA"},
-		{"id":"d0f7a4a2a2e50105","x":-600,"y":44,"width":250,"height":60,"type":"text","text":"INSCRIPCIONES"},
-		{"id":"f7ee9a09eab57bb9","x":-1340,"y":200,"width":560,"height":240,"type":"text","text":"\n| codigo materia | materia |     |\n| -------------- | ------- | --- |\n|                |         |     |\n|                |         |     |\n"},
-		{"id":"5bcc8cc1a45bdbad","x":-660,"y":200,"width":250,"height":60,"type":"text","text":"\n|     | semestr |\n| --- | ------- |\n|     |         |\n"}
-	],
-	"edges":[]
+    "nodes": [
+        {
+            "id": "titulo01",
+            "x": -700,
+            "y": -260,
+            "width": 400,
+            "height": 80,
+            "type": "text",
+            "text": "# UNIVERSIDAD\n### Diagrama entidad-relación (universidad_db)"
+        },
+        {
+            "id": "programas01",
+            "x": -1400,
+            "y": -60,
+            "width": 300,
+            "height": 200,
+            "type": "text",
+            "text": "### PROGRAMAS\n| Campo | Tipo | Llave |\n| --- | --- | --- |\n| id_programa | INT | PK |\n| nombre_programa | VARCHAR | |\n| facultad | VARCHAR | |"
+        },
+        {
+            "id": "estudiantes01",
+            "x": -1000,
+            "y": -60,
+            "width": 300,
+            "height": 200,
+            "type": "text",
+            "text": "### ESTUDIANTES\n| Campo | Tipo | Llave |\n| --- | --- | --- |\n| codigo_estudiante | VARCHAR | PK |\n| nombre_estudiante | VARCHAR | |\n| id_programa | INT | FK → Programas |"
+        },
+        {
+            "id": "inscripciones01",
+            "x": -600,
+            "y": -60,
+            "width": 300,
+            "height": 200,
+            "type": "text",
+            "text": "### INSCRIPCIONES\n| Campo | Tipo | Llave |\n| --- | --- | --- |\n| codigo_estudiante | VARCHAR | FK → Estudiantes |\n| codigo_materia | VARCHAR | FK → Materias |\n| semestre | VARCHAR | |"
+        },
+        {
+            "id": "grupos01",
+            "x": -200,
+            "y": -60,
+            "width": 300,
+            "height": 200,
+            "type": "text",
+            "text": "### GRUPOS\n| Campo | Tipo | Llave |\n| --- | --- | --- |\n| codigo_materia | VARCHAR | FK → Materias |\n| semestre | VARCHAR | |\n| id_profesor | INT | FK → Profesores |"
+        },
+        {
+            "id": "materias01",
+            "x": 200,
+            "y": -60,
+            "width": 300,
+            "height": 200,
+            "type": "text",
+            "text": "### MATERIAS\n| Campo | Tipo | Llave |\n| --- | --- | --- |\n| codigo_materia | VARCHAR | PK |\n| materia | VARCHAR | |\n| creditos | INT | |"
+        },
+        {
+            "id": "profesores01",
+            "x": -200,
+            "y": 260,
+            "width": 300,
+            "height": 200,
+            "type": "text",
+            "text": "### PROFESORES\n| Campo | Tipo | Llave |\n| --- | --- | --- |\n| id_profesor | INT | PK |\n| nombre_profesor | VARCHAR | |\n| correo_profesor | VARCHAR | |"
+        },
+        {
+            "id": "nota-consulta01",
+            "x": -1400,
+            "y": 260,
+            "width": 700,
+            "height": 220,
+            "type": "text",
+            "text": "### 📝 Consulta de ejemplo (LEFT JOIN de todas las tablas)\n```sql\nSELECT\n    e.codigo_estudiante, e.nombre_estudiante,\n    p.nombre_programa, p.facultad,\n    m.codigo_materia, m.materia, m.creditos,\n    i.semestre,\n    prof.nombre_profesor, prof.correo_profesor\nFROM Estudiantes e\nLEFT JOIN Programas p ON e.id_programa = p.id_programa\nLEFT JOIN Inscripciones i ON e.codigo_estudiante = i.codigo_estudiante\nLEFT JOIN Grupos g ON i.codigo_materia = g.codigo_materia AND i.semestre = g.semestre\nLEFT JOIN Materias m ON g.codigo_materia = m.codigo_materia\nLEFT JOIN Profesores prof ON g.id_profesor = prof.id_profesor\nORDER BY e.codigo_estudiante;\n```"
+        }
+    ],
+    "edges": [
+        {"id": "e1", "fromNode": "programas01", "fromSide": "right", "toNode": "estudiantes01", "toSide": "left", "label": "id_programa"},
+        {"id": "e2", "fromNode": "estudiantes01", "fromSide": "right", "toNode": "inscripciones01", "toSide": "left", "label": "codigo_estudiante"},
+        {"id": "e3", "fromNode": "inscripciones01", "fromSide": "right", "toNode": "grupos01", "toSide": "left", "label": "codigo_materia + semestre"},
+        {"id": "e4", "fromNode": "grupos01", "fromSide": "right", "toNode": "materias01", "toSide": "left", "label": "codigo_materia"},
+        {"id": "e5", "fromNode": "grupos01", "fromSide": "bottom", "toNode": "profesores01", "toSide": "top", "label": "id_profesor"}
+    ]
 }
