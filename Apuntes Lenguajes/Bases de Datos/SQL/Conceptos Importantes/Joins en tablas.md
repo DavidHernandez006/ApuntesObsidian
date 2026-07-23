@@ -28,12 +28,12 @@ FROM TablaA
 ```
 
 ## 🧩 Tipos de JOIN
-| Tipo | Qué hace | Ejemplo |
-| ------ | -------- | ------- |
-| `INNER JOIN` | Devuelve solo las filas que coinciden en ambas tablas | Clientes que sí tienen pedidos |
-| `LEFT JOIN` | Devuelve todas las filas de la tabla izquierda, con `NULL` si no hay coincidencia | Todos los clientes, tengan o no pedidos |
-| `RIGHT JOIN` | Devuelve todas las filas de la tabla derecha, con `NULL` si no hay coincidencia | Todos los pedidos, tengan o no cliente asociado |
-| `FULL JOIN` | Devuelve todas las filas de ambas tablas, coincidan o no | Todos los clientes y todos los pedidos |
+| Tipo         | Qué hace                                                                          | Ejemplo                                         |
+| ------------ | --------------------------------------------------------------------------------- | ----------------------------------------------- |
+| `INNER JOIN` | Devuelve solo las filas que coinciden en ambas tablas                             | Clientes que sí tienen pedidos                  |
+| `LEFT JOIN`  | Devuelve todas las filas de la tabla izquierda, con `NULL` si no hay coincidencia | Todos los clientes, tengan o no pedidos         |
+| `RIGHT JOIN` | Devuelve todas las filas de la tabla derecha, con `NULL` si no hay coincidencia   | Todos los pedidos, tengan o no cliente asociado |
+| `FULL JOIN`  | Devuelve todas las filas de ambas tablas, coincidan o no                          | Todos los clientes y todos los pedidos          |
 
 ## 💡 Ejemplos prácticos
 ```sql

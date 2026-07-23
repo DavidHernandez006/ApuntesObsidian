@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conceptos de programación/API.md",
+                "file": "Apuntes Ingles/Glosario.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "API"
+              "title": "Glosario"
             }
           }
         ],
@@ -235,18 +235,21 @@
   "active": "1ab8f47827df65b6",
   "lastOpenFiles": [
     "Apuntes Lenguajes/Python/Python.md",
-    "Apuntes Lenguajes/Java/Java.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
-    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/Sin título.canvas",
     "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/DISEÑO Y MODELADO/NOTACION DE CHEN.md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/SUM().md",
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/MAX() y MIN().md",
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/Funciones de texto y fecha.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/Count().md",
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/AVG().md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/SQL.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/normalización de tabla.md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/backup en sql.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/Joins en tablas.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/backup en sql.md",
+    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
+    "Conceptos de programación/API.md",
+    "Apuntes Lenguajes/Java/Java.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/TABLA ENTIDAD (UNIVERSIDAD).canvas",
+    "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/SUM().md",
     "Plantillas/Plantilla - Concepto de Lenguaje (funciones-clases-metodos).md",
     "Plantillas/Plantilla-Conceptos-Programacion.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/Sin título.md",
@@ -260,10 +263,6 @@
     "copilot/copilot-custom-prompts/Summarize.md",
     "copilot/copilot-custom-prompts/Simplify.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Make shorter.md",
-    "copilot/copilot-custom-prompts/Make longer.md",
     "copilot/copilot-custom-prompts",
     "copilot",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes",
