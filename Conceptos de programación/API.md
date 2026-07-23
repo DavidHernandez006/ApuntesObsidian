@@ -78,5 +78,3 @@ fetch("https://api.ejemplo.com/clima?ciudad=Bogota")
 2. ¿Qué significan los verbos HTTP `GET`, `POST`, `PUT` y `DELETE` en el contexto de una API?
 3. ¿Por qué es importante manejar los errores al consumir una API externa?
 
-## 📚 Fuentes / documentación oficial
-- 

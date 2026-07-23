@@ -25,17 +25,14 @@
             "id": "1ab8f47827df65b6",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/TABLA ENTIDAD (UNIVERSIDAD).canvas",
-                "viewState": {
-                  "x": -105,
-                  "y": 160,
-                  "zoom": -1.0903862364571055
-                }
+                "file": "DATAVIEW/Sin título.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "TABLA ENTIDAD (UNIVERSIDAD)"
+              "icon": "lucide-file",
+              "title": "Sin título"
             }
           }
         ],
@@ -237,25 +234,25 @@
   },
   "active": "b139c633f49422fc",
   "lastOpenFiles": [
+    "Conceptos de programación/API.md",
+    "Apuntes Lenguajes/Python/Python.md",
+    "Apuntes Lenguajes/Java/Java.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/SQL.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
+    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/TABLA ENTIDAD (UNIVERSIDAD).canvas",
+    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/normalización de tabla.md",
+    "copilot/copilot-conversations/Significado_del_Tipo_Flag@20260723_175355.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/DISEÑO Y MODELADO/NOTACION DE CHEN.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/SUM().md",
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/MAX() y MIN().md",
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/Count().md",
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/AVG().md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/normalización de tabla.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/Joins en tablas.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/ETIQUETAS EN SQL.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/backup en sql.md",
-    "copilot/copilot-conversations/Significado_del_Tipo_Flag@20260723_175355.md",
     "Apuntes Ingles/Glosario.md",
-    "Apuntes Lenguajes/Python/Python.md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/Funciones de texto y fecha.md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/SQL.md",
     "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
-    "Conceptos de programación/API.md",
-    "Apuntes Lenguajes/Java/Java.md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/TABLA ENTIDAD (UNIVERSIDAD).canvas",
     "Plantillas/Plantilla - Concepto de Lenguaje (funciones-clases-metodos).md",
     "Plantillas/Plantilla-Conceptos-Programacion.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/Sin título.md",
@@ -266,7 +263,6 @@
     "copilot/copilot-conversations/errores_comunes_en_notacion_chen@20260723_094447.md",
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts/Translate to Chinese.md",
-    "copilot/copilot-custom-prompts/Summarize.md",
     "copilot/copilot-custom-prompts",
     "copilot",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes",
