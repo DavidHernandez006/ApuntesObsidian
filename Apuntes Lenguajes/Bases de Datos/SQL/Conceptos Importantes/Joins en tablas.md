@@ -9,84 +9,58 @@ tags:
   - concepto
 tipo: Joins en tablas
 nombre: Joins en tablas
-relacionado:
+relacionado: [[normalización de tabla]]
 ---
-
-
-
-## 📌 ¿Qué es y para que sirve?
-> Joins en tablas 
-
-## 🧠 Conceptos clave
-- 
-- 
-- 
-
-## 🖥️ Sintaxis básica
-```
-// escribe aquí el código de ejemplo
-```
-
-## 🔧 Comandos / Funciones importantes
-| Comando | Qué hace | Ejemplo |
-| ------- | -------- | ------- |
-|         |          |         |
-
-## 💡 Ejemplos prácticos
-```
-// ejemplo 1
-```
-
-## ⚠️ Errores comunes
-- 
-
-## 🔗 Notas relacionadas
-- [[]]
-
-## 📚 Fuentes / Referencias
-- 
 
 # Joins en tablas
 
-
 ## 📌 Definición
-> Qué es, para qué sirve y cuándo se usa.
+> Un JOIN combina filas de dos o más tablas en base a una columna relacionada entre ellas (normalmente una clave primaria y una clave foránea). Sirve para reconstruir información que está separada en varias tablas por normalización.
 
 ## 🖥️ Sintaxis
+```sql
+SELECT columnas
+FROM TablaA
+[TIPO] JOIN TablaB ON TablaA.columna = TablaB.columna;
 ```
-// estructura general de uso
-```
 
-## 🧩 Parámetros / Atributos
-| Nombre | Tipo | Obligatorio | Descripción |
-| ------ | ---- | ------------ | ----------- |
-|        |      |              |             |
-
-## 🔧 Métodos u operaciones relacionadas
-> Aplica sobre todo a clases, listas, arrays y diccionarios (ej: `.append()`, `.get()`, `.push()`, etc.)
-
-| Método | Qué hace | Ejemplo |
+## 🧩 Tipos de JOIN
+| Tipo | Qué hace | Ejemplo |
 | ------ | -------- | ------- |
-|        |          |         |
+| `INNER JOIN` | Devuelve solo las filas que coinciden en ambas tablas | Clientes que sí tienen pedidos |
+| `LEFT JOIN` | Devuelve todas las filas de la tabla izquierda, con `NULL` si no hay coincidencia | Todos los clientes, tengan o no pedidos |
+| `RIGHT JOIN` | Devuelve todas las filas de la tabla derecha, con `NULL` si no hay coincidencia | Todos los pedidos, tengan o no cliente asociado |
+| `FULL JOIN` | Devuelve todas las filas de ambas tablas, coincidan o no | Todos los clientes y todos los pedidos |
 
 ## 💡 Ejemplos prácticos
-```
-// ejemplo 1: uso básico
+```sql
+-- ejemplo 1: uso básico - clientes con sus pedidos
+SELECT Clientes.nombre, Pedidos.monto
+FROM Clientes
+INNER JOIN Pedidos ON Clientes.id_cliente = Pedidos.id_cliente;
 ```
 
-```
-// ejemplo 2: caso más elaborado
+```sql
+-- ejemplo 2: caso más elaborado - incluir clientes sin pedidos
+SELECT Clientes.nombre, Pedidos.monto
+FROM Clientes
+LEFT JOIN Pedidos ON Clientes.id_cliente = Pedidos.id_cliente
+WHERE Pedidos.id_cliente IS NULL;
 ```
 
 ## 🧪 Casos de uso comunes
-- 
-- 
+- Unir tablas relacionadas por clave foránea (Clientes-Pedidos, Estudiantes-Cursos).
+- Encontrar registros huérfanos (ej. clientes que nunca han hecho un pedido) usando `LEFT JOIN` + `WHERE ... IS NULL`.
+- Construir reportes que combinan datos de varias tablas normalizadas.
 
 ## ⚠️ Errores comunes
-- 
+- Olvidar la condición `ON`, lo que genera un producto cartesiano (todas las combinaciones posibles).
+- Confundir `LEFT JOIN` y `RIGHT JOIN` según el orden de las tablas en el `FROM`.
+- No usar alias cuando las columnas se llaman igual en ambas tablas, causando ambigüedad.
 
 ## 🔗 Ver también
-- [[]]
+- [[normalización de tabla]]
+- [[Count()]]
 
 ## 📚 Referencias
 - 
