@@ -218,8 +218,7 @@
       "bases:Crear nueva base": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "copilot:Open Copilot Chat": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "b139c633f49422fc",
