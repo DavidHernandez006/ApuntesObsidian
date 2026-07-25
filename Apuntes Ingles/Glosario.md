@@ -1,1 +1,6 @@
 Shy = timido 
+plenty of = mas que suficiente
+tuna = atun
+cans = lata
+lazy = perezoso
+kind = tipo

@@ -1,5 +1,5 @@
 ---
-tema:
+tema: CONTABLES E INCONTABLES
 tipo:
 fecha:
   "{ date }":
@@ -11,16 +11,14 @@ nivel:
 estado: en-progreso
 ---
 
-# 🇬🇧 {{tema}}
+# Countable and uncontable
 
-## 🎯 Objetivo de esta sesión
-- [ ] 
 
 ## 📖 Vocabulario nuevo
 | Palabra / frase | Pronunciación (IPA) | Significado | Ejemplo |
-|---|---|---|---|
-|  |  |  |  |
-|  |  |  |  |
+| --------------- | ------------------- | ----------- | ------- |
+|                 |                     |             |         |
+|                 |                     |             |         |
 
 ## 🧩 Gramática
 **Regla / estructura:**
