@@ -15,34 +15,22 @@ estado: en-progreso
 
 
 ## 📖 Vocabulario nuevo
-| Palabra / frase | Pronunciación (IPA) | Significado | Ejemplo |
-| --------------- | ------------------- | ----------- | ------- |
-|                 |                     |             |         |
-|                 |                     |             |         |
+| Palabra / frase    | Pronunciación (IPA) | Significado     | Ejemplo                                                                                        |
+| ------------------ | ------------------- | --------------- | ---------------------------------------------------------------------------------------------- |
+| lot of **courage** |                     | mucho **valor** | it takes a lot of **courage** to release the familiar and seemingly secure, to embrace the new |
+| semmingly          |                     | aparentemente   |                                                                                                |
 
-## 🧩 Gramática
-**Regla / estructura:**
-
-
-**Fórmula:**
-> Sujeto + verbo + ...
 
 **Ejemplos correctos:**
-1. 
-2. 
-
-**Errores comunes de hispanohablantes:**
-- 
+1. How much money
+2. plenty of time
 
 ## 🗣️ Frases útiles / expresiones idiomáticas
-| Frase en inglés | Significado real | Equivalente en español |
-|---|---|---|
-|  |  |  |
+| Frase en inglés                                                                                | Significado real | Equivalente en español                                                                                 |
+| ---------------------------------------------------------------------------------------------- | ---------------- | ------------------------------------------------------------------------------------------------------ |
+| it takes a lot of **courage** to release the familiar and seemingly secure, to embrace the new |                  | Se necesita mucho **valor** para dejar atrás lo conocido y aparentemente seguro, y abrirse a lo nuevo. |
 
-## 👂 Listening / Pronunciación
-- Recurso usado (video, podcast, canción): 
-- Palabras que me costó entender: 
-- Sonidos que debo practicar (ej. th, r, vowels): 
+
 
 ## ✍️ Práctica de escritura
 **Escribe 3-5 oraciones usando el vocabulario/gramática de hoy:**
@@ -56,16 +44,6 @@ estado: en-progreso
 
 ## 🔁 Repaso espaciado (spaced repetition)
 | Fecha | ¿Recordé la palabra/regla? | Notas |
-|---|---|---|
-|  | ✅/❌ |  |
+| ----- | -------------------------- | ----- |
+|       | ✅/❌                        |       |
 
-## 🃏 Tarjetas para Anki / Flashcards
-> Formato: Inglés — Español
-
-- 
-
-## 🔗 Temas relacionados
-- [[ ]]
-
-## 📚 Recursos usados
-- 

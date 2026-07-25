@@ -6,3 +6,5 @@ lazy = perezoso
 kind = tipo
 smells = huele
 dessert = postre
+courage = valor
+seemingly = aparentemente
