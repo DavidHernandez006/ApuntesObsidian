@@ -4,3 +4,5 @@ tuna = atun
 cans = lata
 lazy = perezoso
 kind = tipo
+smells = huele
+dessert = postre
