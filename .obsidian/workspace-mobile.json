@@ -1,62 +1,37 @@
 {
   "main": {
-    "id": "c540199a0abd46ca",
+    "id": "ed25a63b5cd9beeb",
     "type": "split",
     "children": [
       {
-        "id": "dee9c8c4d19c99db",
+        "id": "ff8e2ccd1a9c65b5",
         "type": "tabs",
         "children": [
           {
-            "id": "4529cef0bc9a0445",
+            "id": "21c3dfb5b3298700",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Plantillas/Plantilla-Conceptos-Programacion.md",
+                "file": "Apuntes Ingles/Glosario.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Plantilla-Conceptos-Programacion"
-            }
-          },
-          {
-            "id": "57fc893465e17714",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/Joins en tablas.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Joins en tablas"
-            }
-          },
-          {
-            "id": "dc811732e5ac4d39",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Glosario"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "8967565d5215ea76",
+    "id": "ef000bb6cdd87c07",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "19b1eb9f18ab3916",
+        "id": "e8e08145209df3d5",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -69,7 +44,7 @@
         }
       },
       {
-        "id": "a1548753beef6e85",
+        "id": "d923786bcae3970e",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -86,7 +61,7 @@
         }
       },
       {
-        "id": "1e89858a5cabcb0e",
+        "id": "966275478a0bdc1d",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -101,7 +76,7 @@
         }
       },
       {
-        "id": "cfe0d01623762743",
+        "id": "34355617d95641fa",
         "type": "leaf",
         "state": {
           "type": "all-properties",
@@ -115,7 +90,7 @@
         }
       },
       {
-        "id": "bb5c00ffefd70cbe",
+        "id": "a93295eb67aee1c0",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -128,16 +103,15 @@
     "currentTab": 0
   },
   "right": {
-    "id": "14f5d7e8acf77da8",
+    "id": "78d797f781f3fb03",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "ea4647480e2cb62e",
+        "id": "edb7b6591ea49601",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Apuntes Lenguajes.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -151,12 +125,11 @@
         }
       },
       {
-        "id": "2e5dfa3d2cee5511",
+        "id": "aa883cd145e1e640",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Conceptos de programación/API.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -165,12 +138,11 @@
         }
       },
       {
-        "id": "8be96bd4017854c6",
+        "id": "579834a715978417",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "Conceptos de programación/API.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -180,7 +152,7 @@
         }
       },
       {
-        "id": "745fd55dcb380c5f",
+        "id": "01fbbb9c7eb1ed65",
         "type": "leaf",
         "state": {
           "type": "git-view",
@@ -188,24 +160,15 @@
           "icon": "git-pull-request",
           "title": "Source Control"
         }
-      },
-      {
-        "id": "bc276ea6ca55d447",
-        "type": "leaf",
-        "state": {
-          "type": "copilot-chat-view",
-          "state": {},
-          "icon": "message-square",
-          "title": "Copilot"
-        }
       }
     ],
-    "currentTab": 4
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -213,55 +176,47 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "copilot:Open Copilot Chat": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc276ea6ca55d447",
+  "active": "21c3dfb5b3298700",
   "lastOpenFiles": [
-    "copilot/copilot-custom-prompts/Clip Web Page.md",
-    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
-    "copilot/copilot-custom-prompts/Generate table of contents.md",
-    "copilot/copilot-custom-prompts/Make longer.md",
-    "copilot/copilot-custom-prompts/Make shorter.md",
-    "copilot/copilot-custom-prompts/Emojify.md",
-    "copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "copilot/copilot-custom-prompts/Simplify.md",
-    "copilot/copilot-custom-prompts/Summarize.md",
-    "copilot/copilot-custom-prompts/Translate to Chinese.md",
-    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
-    "copilot/copilot-custom-prompts",
-    "copilot",
-    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/Joins en tablas.md",
-    "Apuntes Ingles/Glosario.md",
-    "Apuntes Lenguajes/Java/Java.md",
-    "Apuntes Lenguajes/Python/Python.md",
-    "/Apuntes Lenguajes/Java/Java.md",
-    "/Apuntes Lenguajes/Python/Python.md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/normalización de tabla.md",
-    "/Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/DISEÑO Y MODELADO/NOTACION DE CHEN.md",
-    "/Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/DISEÑO Y MODELADO",
-    "/Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL",
-    "/Apuntes Lenguajes/Bases de Datos/SQL/SQL.md",
-    "/Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/normalización de tabla.md",
-    "Apuntes Lenguajes/Python",
-    "Apuntes Lenguajes/Java",
-    "/Apuntes Lenguajes/Python",
-    "/Apuntes Lenguajes/Java",
-    "/Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes",
-    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes",
-    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/Sin título.canvas",
-    "/Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/Sin título.canvas",
-    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/DISEÑO Y MODELADO/NOTACION DE CHEN.md",
-    "/Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
     "Sin título.canvas",
-    "/Sin título.canvas",
+    "Plantillas/README - Plugins y Plantilla.md",
+    "Plantillas/Plantilla-Matematicas-Fisica.md",
+    "Plantillas/Plantilla-Conceptos-Programacion.md",
+    "Plantillas/Plantilla-Aprender-Ingles.md",
+    "Plantillas/Plantilla - Concepto de Lenguaje (funciones-clases-metodos).md",
+    "Plantillas/Plantilla - Apuntes de Lenguaje.md",
+    "DATAVIEW/TABLA PROGRESO.md",
+    "Conceptos de programación/API.md",
+    "Apuntes Lenguajes/Python/Python.md",
+    "Apuntes Lenguajes/Java/Java.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/TABLA ENTIDAD (UNIVERSIDAD).canvas",
+    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/DISEÑO Y MODELADO/NOTACION DE CHEN.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/SQL.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/SUM().md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/MAX() y MIN().md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/Funciones de texto y fecha.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/Count().md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/AVG().md",
     "Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
-    "Apuntes Lenguajes/Bases de Datos/Esquema.canvas",
-    "/Apuntes Lenguajes/Bases de Datos/Esquema.canvas"
+    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/normalización de tabla.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/backup en sql.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/Joins en tablas.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/ETIQUETAS EN SQL.md",
+    "Apuntes Ingles/Sin título.md",
+    "Apuntes Ingles/Glosario.md",
+    "Apuntes Ingles/CONTABLES E INCONTABLES.md",
+    "Plantillas",
+    "DATAVIEW",
+    "Conceptos de programación",
+    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS",
+    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/DISEÑO Y MODELADO",
+    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL",
+    "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES",
+    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes",
+    "Apuntes Lenguajes/Bases de Datos/SQL",
+    "Apuntes Lenguajes/Python"
   ]
 }
