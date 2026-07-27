@@ -9,3 +9,10 @@ dessert = postre
 courage = valor
 seemingly = aparentemente
 Due = debido 
+Fancy = sofisticado/ elegante 
+Pick = escoger 
+Throwing= lanzando
+Load = cargar
+Overrides = sobreescribe
+Fetch = cargar/traer
+Scoope 
