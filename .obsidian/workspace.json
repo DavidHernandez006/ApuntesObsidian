@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apuntes Ingles/Glosario.md",
+                "file": "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/backup en sql.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Glosario"
+              "title": "backup en sql"
             }
           }
         ],
@@ -224,12 +224,16 @@
   },
   "active": "1ab8f47827df65b6",
   "lastOpenFiles": [
-    "Apuntes Ingles/Sin título.md",
-    "Apuntes Ingles/Glosario.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/comandos.md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/TABLA ENTIDAD (UNIVERSIDAD).canvas",
-    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/backup en sql.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/ETIQUETAS EN SQL.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/Joins en tablas.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/normalización de tabla.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/DISEÑO Y MODELADO/NOTACION DE CHEN.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
+    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/TABLA ENTIDAD (UNIVERSIDAD).canvas",
+    "Apuntes Ingles/Glosario.md",
+    "Apuntes Ingles/Sin título.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/backup en sql.md",
     "Sin título.canvas",
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/SUM().md",
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/MAX() y MIN().md",
@@ -239,8 +243,6 @@
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES",
     "Apuntes Ingles/CONTABLES E INCONTABLES.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/Sin título.md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/normalización de tabla.md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/DISEÑO Y MODELADO/NOTACION DE CHEN.md",
     "copilot/copilot-custom-prompts/Translate to Chinese.md",
     "copilot/copilot-custom-prompts/Summarize.md",
     "copilot/copilot-custom-prompts/Simplify.md",
@@ -252,11 +254,9 @@
     "copilot/copilot-custom-prompts/Generate table of contents.md",
     "copilot/copilot-custom-prompts/Generate glossary.md",
     "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
-    "copilot/copilot-custom-prompts/Explain like I am 5.md",
     "copilot/copilot-custom-prompts",
     "copilot",
     "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/Sin título.canvas",
-    "Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
     "Sin título.base",
     "copilot/copilot-conversations",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes",
