@@ -25,17 +25,14 @@
             "id": "1ab8f47827df65b6",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/TABLA ENTIDAD (UNIVERSIDAD).canvas",
-                "viewState": {
-                  "x": -100,
-                  "y": 700,
-                  "zoom": -1.9621979672876155
-                }
+                "file": "Apuntes Ingles/Glosario.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "TABLA ENTIDAD (UNIVERSIDAD)"
+              "icon": "lucide-file",
+              "title": "Glosario"
             }
           }
         ],
@@ -227,6 +224,10 @@
   },
   "active": "1ab8f47827df65b6",
   "lastOpenFiles": [
+    "Apuntes Ingles/Sin título.md",
+    "Apuntes Ingles/Glosario.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/comandos.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/TABLA ENTIDAD (UNIVERSIDAD).canvas",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/backup en sql.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/ETIQUETAS EN SQL.md",
     "Sin título.canvas",
@@ -237,7 +238,6 @@
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/AVG().md",
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES",
     "Apuntes Ingles/CONTABLES E INCONTABLES.md",
-    "Apuntes Ingles/Sin título.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/Sin título.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/normalización de tabla.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/DISEÑO Y MODELADO/NOTACION DE CHEN.md",
@@ -253,10 +253,8 @@
     "copilot/copilot-custom-prompts/Generate glossary.md",
     "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "copilot/copilot-custom-prompts/Emojify.md",
     "copilot/copilot-custom-prompts",
     "copilot",
-    "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/TABLA ENTIDAD (UNIVERSIDAD).canvas",
     "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/Sin título.canvas",
     "Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
     "Sin título.base",
