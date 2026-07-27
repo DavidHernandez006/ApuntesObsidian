@@ -8,4 +8,4 @@ smells = huele
 dessert = postre
 courage = valor
 seemingly = aparentemente
-Due 
+Due = debido 
