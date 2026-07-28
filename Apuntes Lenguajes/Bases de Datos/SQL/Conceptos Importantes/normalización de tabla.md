@@ -66,4 +66,5 @@ CREATE TABLE Estudiantes_Cursos (
 - [[NOTACION DE CHEN]]
 - [[backup en sql]]
 - [[SQL]]
+- [[TABLA ENTIDAD (UNIVERSIDAD).canvas]]
 
