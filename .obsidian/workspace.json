@@ -25,12 +25,14 @@
             "id": "1ab8f47827df65b6",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Adjuntos/comandos-categorias.svg"
+                "file": "Apuntes Lenguajes/Python/Python.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "comandos-categorias"
+              "icon": "lucide-file",
+              "title": "Python"
             }
           }
         ],
@@ -222,6 +224,8 @@
   },
   "active": "1ab8f47827df65b6",
   "lastOpenFiles": [
+    "Apuntes Lenguajes/Java/Java.md",
+    "Adjuntos/comandos-categorias.svg",
     "Adjuntos/joins-venn.svg",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/normalización de tabla.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/Joins en tablas.md",
@@ -230,7 +234,6 @@
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/backup en sql.md",
     "Apuntes Ingles/Glosario.md",
     "Apuntes Ingles/CONTABLES E INCONTABLES.md",
-    "Adjuntos/comandos-categorias.svg",
     "Adjuntos",
     "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/DISEÑO Y MODELADO/NOTACION DE CHEN.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
