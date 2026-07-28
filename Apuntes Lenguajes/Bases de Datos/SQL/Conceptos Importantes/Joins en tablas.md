@@ -27,6 +27,8 @@ FROM TablaA
 [TIPO] JOIN TablaB ON TablaA.columna = TablaB.columna;
 ```
 
+![[joins-venn.svg]]
+
 ## 🧩 Tipos de JOIN
 | Tipo         | Qué hace                                                                          | Ejemplo                                         |
 | ------------ | --------------------------------------------------------------------------------- | ----------------------------------------------- |

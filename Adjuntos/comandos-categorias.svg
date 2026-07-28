@@ -1,0 +1,45 @@
+<svg viewBox="0 0 720 220" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <style>
+    .caja { stroke-width: 2; rx: 10; }
+    .nombre { font-size: 15px; font-weight: 700; fill: #fff; text-anchor: middle; }
+    .desc { font-size: 11px; fill: #fff; text-anchor: middle; }
+    .cmds { font-size: 11px; fill: #fff; text-anchor: middle; font-family: monospace; }
+  </style>
+
+  <g transform="translate(10,20)">
+    <rect width="160" height="180" class="caja" fill="#1a2f38" stroke="#00b4d8"/>
+    <text x="80" y="30" class="nombre">DDL</text>
+    <text x="80" y="50" class="desc">Definición de datos</text>
+    <text x="80" y="90" class="cmds">CREATE</text>
+    <text x="80" y="110" class="cmds">ALTER</text>
+    <text x="80" y="130" class="cmds">DROP</text>
+    <text x="80" y="150" class="cmds">TRUNCATE</text>
+  </g>
+
+  <g transform="translate(190,20)">
+    <rect width="160" height="180" class="caja" fill="#2b2b1f" stroke="#f5a623"/>
+    <text x="80" y="30" class="nombre">DML</text>
+    <text x="80" y="50" class="desc">Manipulación de datos</text>
+    <text x="80" y="90" class="cmds">SELECT</text>
+    <text x="80" y="110" class="cmds">INSERT</text>
+    <text x="80" y="130" class="cmds">UPDATE</text>
+    <text x="80" y="150" class="cmds">DELETE</text>
+  </g>
+
+  <g transform="translate(370,20)">
+    <rect width="160" height="180" class="caja" fill="#22301f" stroke="#5cb85c"/>
+    <text x="80" y="30" class="nombre">DCL</text>
+    <text x="80" y="50" class="desc">Control de acceso</text>
+    <text x="80" y="90" class="cmds">GRANT</text>
+    <text x="80" y="110" class="cmds">REVOKE</text>
+  </g>
+
+  <g transform="translate(550,20)">
+    <rect width="160" height="180" class="caja" fill="#301f2f" stroke="#c86dd7"/>
+    <text x="80" y="30" class="nombre">TCL</text>
+    <text x="80" y="50" class="desc">Control de transacciones</text>
+    <text x="80" y="90" class="cmds">COMMIT</text>
+    <text x="80" y="110" class="cmds">ROLLBACK</text>
+    <text x="80" y="130" class="cmds">SAVEPOINT</text>
+  </g>
+</svg>

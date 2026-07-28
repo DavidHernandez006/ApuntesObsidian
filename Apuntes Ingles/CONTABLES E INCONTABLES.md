@@ -17,8 +17,8 @@ estado: en-progreso
 ## 📖 Vocabulario nuevo
 | Palabra / frase    | Pronunciación (IPA) | Significado     | Ejemplo                                                                                        |
 | ------------------ | ------------------- | --------------- | ---------------------------------------------------------------------------------------------- |
-| lot of **courage** |                     | mucho **valor** | it takes a lot of **courage** to release the familiar and seemingly secure, to embrace the new |
-| semmingly          |                     | aparentemente   |                                                                                                |
+| lot of **courage** | /ˈlɒt əv ˈkʌrɪdʒ/    | mucho **valor** | it takes a lot of **courage** to release the familiar and seemingly secure, to embrace the new |
+| seemingly          | /ˈsiːmɪŋli/          | aparentemente   | it seemingly took him a lot of courage to speak up                                             |
 
 
 **Ejemplos correctos:**

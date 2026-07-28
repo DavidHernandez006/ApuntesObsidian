@@ -15,4 +15,4 @@ Throwing= lanzando
 Load = cargar
 Overrides = sobreescribe
 Fetch = cargar/traer
-Scoope 
+Scope = alcance 

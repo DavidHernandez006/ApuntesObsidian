@@ -1,0 +1,41 @@
+<svg viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <style>
+    .titulo { font-size: 16px; font-weight: 600; fill: #1a2f38; }
+    .etiqueta { font-size: 12px; fill: #333; text-anchor: middle; }
+    .A { fill: #00b4d8; fill-opacity: 0.55; }
+    .B { fill: #f5a623; fill-opacity: 0.55; }
+  </style>
+
+  <!-- INNER JOIN -->
+  <g transform="translate(0,20)">
+    <text x="90" y="0" class="titulo" text-anchor="middle">INNER JOIN</text>
+    <circle cx="70" cy="90" r="55" class="A" stroke="#0077a0" stroke-width="2"/>
+    <circle cx="120" cy="90" r="55" class="B" stroke="#c9760a" stroke-width="2"/>
+    <text x="95" y="95" class="etiqueta" font-weight="700">∩</text>
+    <text x="95" y="180" class="etiqueta">Solo coincidencias</text>
+  </g>
+
+  <!-- LEFT JOIN -->
+  <g transform="translate(210,20)">
+    <text x="90" y="0" class="titulo" text-anchor="middle">LEFT JOIN</text>
+    <circle cx="70" cy="90" r="55" fill="#00b4d8" fill-opacity="0.85" stroke="#0077a0" stroke-width="2"/>
+    <circle cx="120" cy="90" r="55" class="B" stroke="#c9760a" stroke-width="2"/>
+    <text x="95" y="180" class="etiqueta">Toda la tabla A + coincidencias</text>
+  </g>
+
+  <!-- RIGHT JOIN -->
+  <g transform="translate(420,20)">
+    <text x="90" y="0" class="titulo" text-anchor="middle">RIGHT JOIN</text>
+    <circle cx="70" cy="90" r="55" class="A" stroke="#0077a0" stroke-width="2"/>
+    <circle cx="120" cy="90" r="55" fill="#f5a623" fill-opacity="0.85" stroke="#c9760a" stroke-width="2"/>
+    <text x="95" y="180" class="etiqueta">Toda la tabla B + coincidencias</text>
+  </g>
+
+  <!-- FULL JOIN -->
+  <g transform="translate(630,20)">
+    <text x="90" y="0" class="titulo" text-anchor="middle">FULL JOIN</text>
+    <circle cx="70" cy="90" r="55" fill="#00b4d8" fill-opacity="0.85" stroke="#0077a0" stroke-width="2"/>
+    <circle cx="120" cy="90" r="55" fill="#f5a623" fill-opacity="0.85" stroke="#c9760a" stroke-width="2"/>
+    <text x="95" y="180" class="etiqueta">Todo A y todo B</text>
+  </g>
+</svg>
