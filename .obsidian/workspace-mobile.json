@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apuntes Ingles/Glosario.md",
+                "file": "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/normalización de tabla.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Glosario"
+              "title": "normalización de tabla"
             }
           }
         ]
@@ -37,7 +37,9 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical",
-            "autoReveal": false
+            "autoReveal": false,
+            "showSearch": false,
+            "searchQuery": ""
           },
           "icon": "lucide-folder-closed",
           "title": "Files"
@@ -181,6 +183,7 @@
   },
   "active": "21c3dfb5b3298700",
   "lastOpenFiles": [
+    "Apuntes Ingles/Glosario.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/comandos.md",
     "Adjuntos/joins-venn.svg",
     "Adjuntos/comandos-categorias.svg",
@@ -220,7 +223,6 @@
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/AVG().md",
     "Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/normalización de tabla.md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/backup en sql.md",
     "Plantillas",
     "DATAVIEW",
     "Conceptos de programación"
