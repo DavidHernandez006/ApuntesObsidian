@@ -34,7 +34,7 @@ estado: en-progreso
 
 ## ✍️ Práctica de escritura
 **Escribe 3-5 oraciones usando el vocabulario/gramática de hoy:**
-1. 
+1. how many peoples go to the park?
 2. 
 3. 
 
@@ -46,4 +46,7 @@ estado: en-progreso
 | Fecha | ¿Recordé la palabra/regla? | Notas |
 | ----- | -------------------------- | ----- |
 |       | ✅/❌                        |       |
+**🗒 NOTAS ADICIONALES**
 
+Cual es la diferencia de each y every?
+Una cuenta elemento por elemento mientra la otra lo hace todo de una vez. They get out every night - They get out each day go to gym
