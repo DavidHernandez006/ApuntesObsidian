@@ -95,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "79f7cc2cf28c41c4",
@@ -227,10 +226,12 @@
   },
   "active": "1ab8f47827df65b6",
   "lastOpenFiles": [
-    "Apuntes Ingles/Glosario.md",
-    "Apuntes Ingles/TIEMPOS/Infinitivos y presente continuo.md",
-    "Apuntes Ingles/TIEMPOS",
     "Apuntes Ingles/Expresiones de tiempo y cantidad/CONTABLES E INCONTABLES.md",
+    "Plantillas/Plantilla-Aprender-Ingles.md",
+    "Plantillas/Plantilla - Apuntes de Lenguaje.md",
+    "Apuntes Ingles/TIEMPOS/Infinitivos y presente continuo.md",
+    "Apuntes Ingles/Glosario.md",
+    "Apuntes Ingles/TIEMPOS",
     "Apuntes Ingles/Expresiones de tiempo y cantidad",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/comandos.md",
     "Apuntes Lenguajes/Python/Python.md",
@@ -260,8 +261,6 @@
     "copilot/copilot-custom-prompts/Rewrite as tweet.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Make shorter.md",
-    "copilot/copilot-custom-prompts/Make longer.md",
     "copilot/copilot-custom-prompts",
     "copilot",
     "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/Sin título.canvas",
