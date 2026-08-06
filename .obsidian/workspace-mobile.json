@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/normalización de tabla.md",
+                "file": "Apuntes Ingles/TIEMPOS/Infinitivos y presente continuo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "normalización de tabla"
+              "title": "Infinitivos y presente continuo"
             }
           }
         ]
@@ -184,6 +184,17 @@
   "active": "21c3dfb5b3298700",
   "lastOpenFiles": [
     "Apuntes Ingles/Glosario.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/normalización de tabla.md",
+    "Apuntes Ingles/TIEMPOS/Infinitivos y presente continuo.md",
+    "Apuntes Ingles/Expresiones de tiempo y cantidad/CONTABLES E INCONTABLES.md",
+    "/Apuntes Ingles/TIEMPOS/Infinitivos y presente continuo.md",
+    "/Apuntes Ingles/Glosario.md",
+    "/Apuntes Ingles/Expresiones de tiempo y cantidad/CONTABLES E INCONTABLES.md",
+    "Apuntes Ingles/TIEMPOS",
+    "Apuntes Ingles/Expresiones de tiempo y cantidad",
+    "/Apuntes Ingles/TIEMPOS",
+    "/Apuntes Ingles/Expresiones de tiempo y cantidad",
+    "/Apuntes Ingles",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/comandos.md",
     "Adjuntos/joins-venn.svg",
     "Adjuntos/comandos-categorias.svg",
@@ -195,13 +206,10 @@
     "/Apuntes Lenguajes/Bases de Datos/SQL",
     "/Apuntes Lenguajes/Bases de Datos",
     "/Apuntes Lenguajes",
-    "/Apuntes Ingles/Glosario.md",
     "/Apuntes Ingles/CONTABLES E INCONTABLES.md",
     "/Adjuntos/joins-venn.svg",
     "/Adjuntos/comandos-categorias.svg",
     "Adjuntos",
-    "/Adjuntos",
-    "/Apuntes Ingles",
     "Sin título.canvas",
     "Plantillas/README - Plugins y Plantilla.md",
     "Plantillas/Plantilla-Matematicas-Fisica.md",
@@ -217,14 +225,6 @@
     "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/DISEÑO Y MODELADO/NOTACION DE CHEN.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/SQL.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/SUM().md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/MAX() y MIN().md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/Funciones de texto y fecha.md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/Count().md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/AVG().md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas",
-    "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/normalización de tabla.md",
-    "Plantillas",
-    "DATAVIEW",
-    "Conceptos de programación"
+    "Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas"
   ]
 }
