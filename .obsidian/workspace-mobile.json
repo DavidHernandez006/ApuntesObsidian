@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apuntes Ingles/TIEMPOS/Infinitivos y presente continuo.md",
+                "file": "Apuntes Ingles/Expresiones de tiempo y cantidad/CONTABLES E INCONTABLES.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Infinitivos y presente continuo"
+              "title": "CONTABLES E INCONTABLES"
             }
           }
         ]
@@ -183,9 +183,15 @@
   },
   "active": "21c3dfb5b3298700",
   "lastOpenFiles": [
+    "Apuntes Ingles/TIEMPOS/Infinitivos y presente continuo.md",
+    "/Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/REPLACE.md",
+    "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/REPLACE.md",
+    "/Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES",
+    "/Apuntes Lenguajes/Bases de Datos/SQL",
+    "/Apuntes Lenguajes/Bases de Datos",
+    "/Apuntes Lenguajes",
     "Apuntes Ingles/Glosario.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/normalización de tabla.md",
-    "Apuntes Ingles/TIEMPOS/Infinitivos y presente continuo.md",
     "Apuntes Ingles/Expresiones de tiempo y cantidad/CONTABLES E INCONTABLES.md",
     "/Apuntes Ingles/TIEMPOS/Infinitivos y presente continuo.md",
     "/Apuntes Ingles/Glosario.md",
@@ -203,13 +209,9 @@
     "/Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/Joins en tablas.md",
     "/Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes/ETIQUETAS EN SQL.md",
     "/Apuntes Lenguajes/Bases de Datos/SQL/Conceptos Importantes",
-    "/Apuntes Lenguajes/Bases de Datos/SQL",
-    "/Apuntes Lenguajes/Bases de Datos",
-    "/Apuntes Lenguajes",
     "/Apuntes Ingles/CONTABLES E INCONTABLES.md",
     "/Adjuntos/joins-venn.svg",
     "/Adjuntos/comandos-categorias.svg",
-    "Adjuntos",
     "Sin título.canvas",
     "Plantillas/README - Plugins y Plantilla.md",
     "Plantillas/Plantilla-Matematicas-Fisica.md",
@@ -223,8 +225,6 @@
     "Apuntes Lenguajes/Java/Java.md",
     "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/TABLAS/TABLA ENTIDAD (UNIVERSIDAD).canvas",
     "Apuntes Lenguajes/Bases de Datos/SQL/TABLAS EN SQL/DISEÑO Y MODELADO/NOTACION DE CHEN.md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/SQL.md",
-    "Apuntes Lenguajes/Bases de Datos/SQL/FUNCIONES/SUM().md",
     "Apuntes Lenguajes/Bases de Datos/SQL/Esquema.canvas"
   ]
 }
