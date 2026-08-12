@@ -17,3 +17,5 @@ Overrides = sobreescribe
 Fetch = cargar/traer
 Scope = alcance 
 stay tuned = no te pierdas
+Wrap = envolver 
+Pop us = aparece 
